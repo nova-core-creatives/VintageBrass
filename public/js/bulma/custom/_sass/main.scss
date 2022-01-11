@@ -1,0 +1,500 @@
+@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+// 0. Import fontawesome SEEMS NOT NEEDED
+// @import "../../bower_components/fontawesome/svg-with-js/css/fa-svg-with-js.css";
+
+
+
+// 1. Import the initial variables and functions, so you can override
+@import "../../bower_components/bulma/sass/utilities/initial-variables";
+@import "../../bower_components/bulma/sass/utilities/functions";
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+// $blue: #06bcef;
+// Add pink and its invert
+// $pink: #ff8080;
+// $pink-invert: #fff;
+
+// Update the sans-serif font family
+$family-sans-serif: "ryo-gothic-plusn", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$family-monospace: "source-code-pro", "monospace";
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+// $primary: $pink;
+// $primary-invert: $pink-invert;
+
+// Top Nav Tweak
+$navbar-box-shadow-color: $grey-lighter !default;
+
+// 4. Setup your Custom Colors
+$linkedin: #0077b5;
+$linkedin-invert: findColorInvert($linkedin);
+$twitter: #55acee;
+$twitter-invert: findColorInvert($twitter);
+$github: #333;
+$github-invert: findColorInvert($github);
+
+$grey-dark2:    hsl(0, 0%, 27%) !default
+$grey-dark2-invert: findColorInvert($grey-dark2);
+
+$esolia-yellow-4: #6A4600;
+$esolia-yellow-4-invert: findColorInvert($esolia-yellow-4);
+$esolia-yellow-3: #9C6700;
+$esolia-yellow-3-invert: findColorInvert($esolia-yellow-3);
+$esolia-yellow-2: #F7A300;
+$esolia-yellow-2-invert: findColorInvert($esolia-yellow-2);
+$esolia-yellow-1: #FFA900;
+$esolia-yellow-1-invert: findColorInvert($esolia-yellow-1);
+$esolia-yellow-0: #C88400;	// Main Complement color */
+$esolia-yellow-0-invert: findColorInvert($esolia-yellow-0);	// Main Complement color invert */
+$esolia-secondary-2-4: #326000;
+$esolia-secondary-2-4-invert: findColorInvert($esolia-secondary-2-4);
+$esolia-secondary-2-3: #4A8D00;
+$esolia-secondary-2-3-invert: findColorInvert($esolia-secondary-2-3);
+$esolia-secondary-2-2: #74DF00;
+$esolia-secondary-2-2-invert: findColorInvert($esolia-secondary-2-2);
+$esolia-secondary-2-1: #80F600;
+$esolia-secondary-2-1-invert: findColorInvert($esolia-secondary-2-1);
+$esolia-secondary-2-0: #5EB500;	// Main Secondary color (2) */
+$esolia-secondary-2-0-invert: findColorInvert($esolia-secondary-2-0); // Main Secondary color (2) invert */
+$esolia-secondary-1-4: #5D0022;
+$esolia-secondary-1-4-invert: findColorInvert($esolia-secondary-1-4);
+$esolia-secondary-1-3: #880032;
+$esolia-secondary-1-3-invert: findColorInvert($esolia-secondary-1-3);
+$esolia-secondary-1-2: #D70050;
+$esolia-secondary-1-2-invert: findColorInvert($esolia-secondary-1-2);
+$esolia-secondary-1-1: #F3005A;
+$esolia-secondary-1-1-invert: findColorInvert($esolia-secondary-1-1);
+$esolia-secondary-1-0: #AE0040;	// Main Secondary color (1) */
+$esolia-secondary-1-0-invert: findColorInvert($esolia-secondary-1-0); // Main Secondary color (1) invert */
+$esolia-blue-4: #002744;
+$esolia-blue-4-invert: findColorInvert($esolia-blue-4);
+$esolia-blue-3: #003965;
+$esolia-blue-3-invert: findColorInvert($esolia-blue-3);
+$esolia-blue-2: #005A9F;
+$esolia-blue-2-invert: findColorInvert($esolia-blue-2);
+$esolia-blue-1: #017DDD;
+$esolia-blue-1-invert: findColorInvert($esolia-blue-1);
+$esolia-blue-0: #004980;	// Main Primary color */
+$esolia-blue-0-invert: findColorInvert($esolia-blue-0); // Main Primary color invert */
+
+// Link colors
+
+$link: $esolia-secondary-2-3 !default
+$link-invert: $esolia-secondary-2-3-invert !default
+$link-visited: $esolia-secondary-1-3 !default
+
+$link-hover: $esolia-yellow-3 !default
+$link-hover-border: $grey-dark !default
+
+$link-focus: $esolia-yellow-4 !default
+$link-focus-border: $esolia-blue-0 !default
+
+$link-active: $esolia-yellow-1 !default
+$link-active-border: $esolia-blue-1 !default
+
+// 5. Add new color variables to the color map.
+@import "../../bower_components/bulma/sass/utilities/derived-variables";
+$addColors: (
+  "grey-dark2":($grey-dark2, $grey-dark2-invert),
+  "twitter":($twitter, $twitter-invert),
+  "linkedin": ($linkedin, $linkedin-invert),
+  "github": ($github, $github-invert),
+  "esolia-blue-0": ($esolia-blue-0,$esolia-blue-0-invert),
+  "esolia-blue-1": ($esolia-blue-1,$esolia-blue-1-invert),
+  "esolia-blue-2": ($esolia-blue-2,$esolia-blue-2-invert),
+  "esolia-blue-3": ($esolia-blue-3,$esolia-blue-3-invert),
+  "esolia-blue-4": ($esolia-blue-4,$esolia-blue-4-invert),
+  "esolia-secondary-1-0": ($esolia-secondary-1-0,$esolia-secondary-1-0-invert),
+  "esolia-secondary-1-1": ($esolia-secondary-1-1,$esolia-secondary-1-1-invert),
+  "esolia-secondary-1-2": ($esolia-secondary-1-2,$esolia-secondary-1-2-invert),
+  "esolia-secondary-1-3": ($esolia-secondary-1-3,$esolia-secondary-1-3-invert),
+  "esolia-secondary-1-4": ($esolia-secondary-1-4,$esolia-secondary-1-4-invert),
+  "esolia-secondary-2-0": ($esolia-secondary-2-0,$esolia-secondary-2-0-invert),
+  "esolia-secondary-2-1": ($esolia-secondary-2-1,$esolia-secondary-2-1-invert),
+  "esolia-secondary-2-2": ($esolia-secondary-2-2,$esolia-secondary-2-2-invert),
+  "esolia-secondary-2-3": ($esolia-secondary-2-3,$esolia-secondary-2-3-invert),
+  "esolia-secondary-2-4": ($esolia-secondary-2-4,$esolia-secondary-2-4-invert),
+  "esolia-yellow-0": ($esolia-yellow-0,$esolia-yellow-0-invert),
+  "esolia-yellow-1": ($esolia-yellow-1,$esolia-yellow-1-invert),
+  "esolia-yellow-2": ($esolia-yellow-2,$esolia-yellow-2-invert),
+  "esolia-yellow-3": ($esolia-yellow-3,$esolia-yellow-3-invert),
+  "esolia-yellow-4": ($esolia-yellow-4,$esolia-yellow-4-invert)
+);
+$colors: map-merge($colors, $addColors);
+
+// 6. Import the rest of Bulma
+
+// Don't need the extension for bulma.sass, just bulma
+@import "../../bower_components/bulma/bulma";
+// Also import extensions
+// @import "../../bower_components/bulma-accordion/dist/bulma-accordion";
+// @import "../../bower_components/bulma-badge/dist/bulma-badge";
+// @import "../../bower_components/bulma-calendar/dist/bulma-calendar";
+@import "../../bower_components/bulma-carousel/dist/bulma-carousel";
+// @import "../../bower_components/bulma-checkradio/dist/bulma-checkradio";
+// @import "../../bower_components/bulma-divider/dist/bulma-divider";
+// @import "../../bower_components/bulma-iconpicker/dist/bulma-iconpicker";
+// @import "../../bower_components/bulma-pageloader/dist/bulma-pageloader";
+// @import "../../bower_components/bulma-pricingtable/dist/bulma-pricingtable";
+@import "../../bower_components/bulma-quickview/dist/bulma-quickview";
+// @import "../../bower_components/bulma-ribbon/dist/bulma-ribbon";
+// @import "../../bower_components/bulma-slider/dist/bulma-slider";
+@import "../../bower_components/bulma-steps/dist/bulma-steps";
+// @import "../../bower_components/bulma-switch/dist/bulma-switch";
+// @import "../../bower_components/bulma-tagsinput/dist/bulma-tagsinput";
+@import "../../bower_components/bulma-timeline/dist/bulma-timeline";
+@import "../../bower_components/bulma-tooltip/dist/bulma-tooltip";
+
+// Custom extension /Users/rcogley/dev/eSolia_2018/src/bulma/custom/_sass/
+@import "_spacing";
+
+// CUSTOM CSS
+// set background color of pages
+html {
+   background-color: $light;
+   }
+
+body {
+   background-color: $dark;
+   }
+
+section.bg-dark {
+   background-color: $dark;
+   }
+
+section.bg-light {
+   background-color: $light;
+   }
+
+div.bg-dark {
+   background-color: $dark;
+   }
+
+// set max width of paragraphs for ease of reading 
+p,ul,ol,table,blockquote,span,small,div.carousel,div.timeline,figure,figure.image,iframe,div#search-results,div.p.subtitle.is-italic {
+    max-width: 38em;
+    // margin: auto;
+}
+
+span#hideheader {
+    max-width: 40em;
+}
+
+// try to fix strong not inheriting color
+strong {
+   color: inherit;
+   font-weight: $strong-weight;
+   }
+
+// set hero backgrounds
+$backgrounds: (bg-templecolfull: '/img/eSolia-Cogley-Azabudai-to-Atago-Tokyo-20131031-5318c.jpg', bg-esoliaofficeexterior: '/img/eSolia-Cogley-eSolia-Office-Exterior-20130530-mono.jpg', bg-totsukabridge: '/img/Cogley-Banner-JR-Totsuka-Bridge-2-mono-b.jpg', bg-templecolumn: '/img/eSolia-Cogley-Azabudai-to-Atago-Tokyo-20131031-5318b.jpg', bg-atagotunnel: '/img/eSolia-Cogley-Azabudai-to-Atago-Tokyo-20131031-5355b.jpg', bg-networkswitch: '/img/eSolia-Cogley-Network-Switch-1.jpg');
+
+@each $key, $image in $backgrounds {
+  .hero-#{$key} {
+    @extend .hero;
+    background-image: url('#{$image}');
+    background-size: cover !important;
+  }
+}
+
+// Shade for blocks from dansup on github
+.is-shaded {
+    animation: flyintoright .4s backwards;
+    background: $grey-darker;
+    box-shadow: rgba(0, 0, 0, .1) 0 1px 0;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 1px;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+.is-shaded:hover {
+    box-shadow: 0 1px 2px rgba(255, 255, 255, .13), 0 1px 1px rgba(255, 255, 255, .19);
+}
+
+// Inner page sidebar
+.is-sidebar-menu {
+  padding: 1.8rem 0rem 1.5rem 1.5rem;
+  line-height: 1rem;
+  background: $grey-dark;
+  li {
+    a {
+      color: $white;
+    }
+  }
+}
+
+.columns {
+  &.is-fullheight {
+    min-height: calc(100vh - ( #{$navbar-height} - .75rem ) );
+    max-height: calc(100vh - ( #{$navbar-height} - .75rem ) );
+    height: calc(100vh - ( #{$navbar-height} - .75rem ) );
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    .column {
+      overflow-y: auto;
+    }
+  }
+}
+
+.is-main-content {
+  background: $grey-lighter;
+  background-image: url("/img/background4.png");
+}
+
+// Menu Tweaking
+
+// edited
+.menu-list {
+  line-height: 1.15;
+}
+
+.menu-list a {
+  // border-radius: 2px;
+  // color: #4a4a4a;
+  // display: block;
+  // padding: 0.5em 0.75em;
+  padding: 0.5em .5em;
+}
+
+.menu-list a:hover {
+  background-color: whitesmoke;
+  color: #363636;
+  border-left: 4px solid $info;
+}
+
+// edited color
+.menu-list a.is-active {
+  background-color: $info;
+  color: #fff;
+  border-left: 4px solid $white;
+}
+
+.menu-list li ul {
+  border-left: 1px solid #dbdbdb;
+  margin: 0.75em;
+  // margin: 1.75em;
+  padding-left: 0.75em;
+  // padding-left: .1em;
+}
+
+.menu-list-about {
+  line-height: 1.15;
+}
+
+.menu-list-about a {
+  border-radius: 2px;
+  color: #4a4a4a;
+  display: block;
+  padding: 0.5em 0.75em;
+  padding: 0.5em .5em;
+}
+
+.menu-list-about a:hover {
+  background-color: whitesmoke;
+  color: #363636;
+  border-left: 4px solid $esolia-yellow-1;
+}
+
+.menu-list-about a.is-active {
+  background-color: $esolia-yellow-1;
+  color: #fff;
+  border-left: 4px solid $white;
+}
+
+.menu-list-about li ul {
+  border-left: 1px solid $esolia-yellow-1;
+  margin: 0.75em;
+  margin: 1.75em;
+  padding-left: 0.75em;
+  padding-left: .1em;
+}
+// service and solution
+.menu-list-svcsol {
+  line-height: 1.15;
+}
+
+.menu-list-svcsol a {
+  border-radius: 2px;
+  color: #4a4a4a;
+  display: block;
+  padding: 0.5em 0.75em;
+  padding: 0.5em .5em;
+}
+
+.menu-list-svcsol a:hover {
+  background-color: whitesmoke;
+  color: #363636;
+  border-left: 4px solid $esolia-secondary-2-0;
+}
+
+.menu-list-svcsol a.is-active {
+  background-color: $esolia-secondary-2-0;
+  color: #fff;
+  border-left: 4px solid $white;
+}
+
+.menu-list-svcsol li ul {
+  border-left: 1px solid $esolia-secondary-2-0;
+  margin: 0.75em;
+  margin: 1.75em;
+  padding-left: 0.75em;
+  padding-left: .1em;
+}
+// success
+.menu-list-success {
+  line-height: 1.15;
+}
+
+.menu-list-success a {
+  border-radius: 2px;
+  color: #4a4a4a;
+  display: block;
+  padding: 0.5em 0.75em;
+  padding: 0.5em .5em;
+}
+
+.menu-list-success a:hover {
+  background-color: whitesmoke;
+  color: #363636;
+  border-left: 4px solid $esolia-secondary-1-0;
+}
+
+.menu-list-success a.is-active {
+  background-color: $esolia-secondary-1-0;
+  color: #fff;
+  border-left: 4px solid $white;
+}
+
+.menu-list-success li ul {
+  border-left: 1px solid $esolia-secondary-1-0;
+  margin: 0.75em;
+  margin: 1.75em;
+  padding-left: 0.75em;
+  padding-left: .1em;
+}
+// edited font-size, bgcolor, padd
+.menu-label {
+  color: #7a7a7a;
+  font-size: 0.9em;
+  background-color: $grey-dark2;
+  padding: .5em 1em .5em 1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+.menu-label:not(:first-child) {
+  margin-top: 1em;
+}
+
+.menu-label:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.menu-label:hover {
+  background-color: $grey-lighter;
+  border-left: 4px solid $white;
+}
+
+a.is-active > .menu-label {
+  background-color: $grey-lighter;
+  border-left: 4px solid $white;
+}
+
+// List Format
+.list-has-no-style {
+  padding-left: 0;
+  list-style: none;
+}
+
+div.content > ul li.link a {
+color: $link;
+text-decoration: none;
+}
+div.content > ul li.link a:hover {
+color: $link-hover;
+}
+
+// PROdb Table Format
+
+table.fs-grid {
+font-size: 0.9rem;
+}
+
+// table.fs-grid {
+// font: normal 11px/12px "Hiragino Kaku Gothic ProN", sans-serif;
+// }
+
+table.fs-grid caption {
+display: none;
+}
+table.fs-grid tbody.fs-tfoot {
+display: none;
+}
+#hideheader table.fs-grid thead {
+display: none;
+}
+table.fs-grid>tbody.fs-groupfoot, table.fs-grid>tbody.fs-grouphead span:nth-child(2)  {
+display: none;
+}
+table.fs-grid div.markup p a {
+color: $link;
+text-decoration: none;
+}
+table.fs-grid div.markup p a:hover {
+color: $link-hover;
+}
+footer.div.ui-button[type=submit] {
+background-color: $esolia-blue-3;
+}
+
+// Search
+
+mark {
+background-color: $esolia-secondary-1-0;
+color: white;
+}
+
+// Map Reponsiveness
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+// Desktop-only padding
+
+@media only screen and (min-width: 1025px) {
+        .esolia-main-inner-desktop {
+            padding-left: 30px;
+        }
+    }
+
+// Gallery
+
+// .carousel-navigation {
+//   pointer-events: none;
+// }
+//
+// .carousel-nav-left, .carousel-nav-right {
+//   pointer-events: auto;
+// }
