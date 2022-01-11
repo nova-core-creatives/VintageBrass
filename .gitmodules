@@ -1,0 +1,6 @@
+[submodule "FlexSlider"]
+	path = FlexSlider
+	url = https://github.com/woocommerce/FlexSlider.git
+[submodule "slick"]
+	path = slick
+	url = https://github.com/kenwheeler/slick.git
