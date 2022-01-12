@@ -5,6 +5,9 @@ theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
 
+
+carousel_css: static/css/flickity.css
+
 taxonomies:
   category: instruments
   types: types
@@ -93,7 +96,7 @@ params:
       icon: user
       links:
       - text: Custom Trumpet
-        url: instruments/custom
+        url: instruments/trumpets/custom
       - text:
         url: /
       - text:
