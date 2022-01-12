@@ -1,3 +1,7 @@
 [submodule "slick"]
 	path = slick
 	url = https://github.com/kenwheeler/slick.git
+
+	[submodule "hugo-fresh"]
+		path = hugo-fresh
+		url = https://github.com/StefMa/hugo-fresh.git
