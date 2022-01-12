@@ -29,3 +29,5 @@ fields:
     max: 
   label: Features
   description: Share unique details
+pages:
+- content/instruments/Trumpets/students-trumpet.md
