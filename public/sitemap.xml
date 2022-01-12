@@ -11,6 +11,14 @@
     <loc>http://something-fresh.org/instruments/custom/</loc>
     <lastmod>2022-01-10T16:39:18-06:00</lastmod>
   </url><url>
+    <loc>http://something-fresh.org/index.html</loc>
+  </url><url>
     <loc>http://something-fresh.org/agb/</loc>
+  </url><url>
+    <loc>http://something-fresh.org/instruments/</loc>
+  </url><url>
+    <loc>http://something-fresh.org/tags/</loc>
+  </url><url>
+    <loc>http://something-fresh.org/terms/</loc>
   </url>
 </urlset>

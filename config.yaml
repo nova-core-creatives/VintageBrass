@@ -4,9 +4,23 @@ title: Hugo Fresh Theme
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
-disableKinds:
-- taxonomy
-- taxonomyTerm
+
+taxonomies:
+  category: instruments
+  types: types
+  tag: tags
+  terms:
+    - Trumpets
+    - Cornets
+    - Mouthpieces
+  tags:
+    - vintage
+    - modern
+    - custom
+    - engraved
+
+
+
 markup:
   goldmark:
     renderer:
