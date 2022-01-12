@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{ partial "meta.html" . }}
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    {{ partial "css.html" . }}
+    <!-- Add the slick-theme.css if you want default styling -->
+
+    <link rel="stylesheet" type="text/css" href= "slick/slick.css"/>
+  </head>
+  <body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+
+    {{ block "main" . }}
+
+    {{ partial "single/single.html" . }}
+
+
+
+
+    {{ with .Resources.ByType "image" }}
+      <div id="fade">
+        {{ range . }}
+        {{ $scaled := .Resize "200x" }}
+      <script>  $('fade').slick('slickAdd',"<div></div>");</script>
+        <a class="" href="{{ .RelPermalink }}"><img src="{{ $scaled.RelPermalink }}" alt="Vintage Brass"/></a>
+      </div>
+      {{end}}
+      {{end}}
+
+    {{ if .Params.include_footer }}
+    {{ partial "footer.html" . }}
+    {{ end }}
+
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+
+    {{ if .Params.sidebar }}
+    {{ partial "single/sidebar.html" . }}
+    {{ end }}
+
+    {{end}}
+
+    {{ partial "javascript.html" . }}
+
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+
+          $('#fade').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+            });
+        });
+      </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  </body>
+</html>

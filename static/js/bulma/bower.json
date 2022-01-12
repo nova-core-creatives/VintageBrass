@@ -1,0 +1,64 @@
+{
+  "name": "my-new-project",
+  "authors": [
+    "John Doe <john@doe.com> (http://johndoe.com)"
+  ],
+  "description": "CodeKit automatically generated this file. You should customize it according to: https://github.com/bower/spec/blob/master/json.md",
+  "main": [
+    "index.html",
+    "main.js"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "none"
+  ],
+  "license": "MIT",
+  "homepage": "https://google.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/foo/bar.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "bulma-extensions": "^1.0.32",
+    "bulma-calendar": "^2.0.0",
+    "bulma-timeline": "^2.0.3",
+    "bulma-switch": "^1.0.2",
+    "bulma-pricingtable": "^1.2.0",
+    "bulma-divider": "^1.0.4",
+    "bulma-carousel": "^2.0.14",
+    "bulma-checkradio": "^1.0.2",
+    "bulma-iconpicker": "^1.0.1",
+    "bulma-pageloader": "^1.0.1",
+    "bulma-tooltip": "^1.0.5",
+    "bulma-tagsinput": "^1.0.11",
+    "bulma-accordion": "^1.0.1",
+    "bulma-ribbon": "^1.0.2",
+    "bulma-quickview": "^1.0.1",
+    "bulma-steps": "^1.0.3",
+    "bulma-slider": "^1.0.4",
+    "bulma-badge": "^1.0.1",
+    "bulmajs": "bulma.js#^0.1.0",
+    "jQuery": "^3.3.1",
+    "fontawesome": "^5.0.13"
+  },
+  "resolutions": {
+    "bulma": "^0.7.0",
+    "bulma-carousel": "^2.0.9",
+    "bulma-calendar": "^2.0.0"
+  }
+}
