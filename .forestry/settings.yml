@@ -1,16 +1,16 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path:
+webhook_url:
 sections:
 - type: directory
-  path: content/mouthpieces
+  path: content/Mouthpieces
   label: Mouthpieces
   create: all
   match: "**/*"
 - type: directory
-  path: content/cornets
+  path: content/Cornets
   label: Cornets
   create: all
   match: "**/*"
