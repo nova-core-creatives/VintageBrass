@@ -8,3 +8,24 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
+- name: features
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Features
+  description: Share unique details
