@@ -122,9 +122,9 @@
     <!-- Back To Top Button -->
     <div id="backtotop"><a href="#"></a></div>
 
-
+    {{if .Page.Params.include_sidebar}}
     {{ partial "single/sidebar.html" . }}
-
+    {{end}}
 
     {{end}}
 
