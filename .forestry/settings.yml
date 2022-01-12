@@ -5,8 +5,18 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/instruments
-  label: Instruments
+  path: content/mouthpieces
+  label: Mouthpieces
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/cornets
+  label: Cornets
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/trumpets
+  label: Trumpets
   create: all
   match: "**/*"
 - type: directory
