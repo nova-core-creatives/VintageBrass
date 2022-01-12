@@ -3,5 +3,5 @@
 	url = https://github.com/kenwheeler/slick.git
 
 	[submodule "hugo-fresh"]
-		path = hugo-fresh
-		url = https://github.com/StefMa/hugo-fresh.git
+	path = hugo-fresh
+	url = https://github.com/robertstrey/hugo-fresh.git
