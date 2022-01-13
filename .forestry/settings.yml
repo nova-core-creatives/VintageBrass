@@ -24,10 +24,10 @@ sections:
   label: Pages
   create: all
   match: "*"
-upload_dir: ":filename:"
-public_path: ":filename:"
+upload_dir: content/uploads
+public_path: "/uploads"
 front_matter_path: ":filename:"
-use_front_matter_path: true
+use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:
