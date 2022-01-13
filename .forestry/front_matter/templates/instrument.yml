@@ -14,6 +14,7 @@ fields:
 - type: list
   name: feature
   label: feature
-- type: list
-  name: gallery
-  label: gallery
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
