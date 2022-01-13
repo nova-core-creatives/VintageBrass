@@ -1,12 +1,22 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path:
+webhook_url:
 sections:
 - type: directory
-  path: content/instruments
-  label: Instruments
+  path: content/MouthPieces
+  label: Mouthpieces
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/Cornets
+  label: Cornets
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/Trumpets
+  label: Trumpets
   create: all
   match: "**/*"
 - type: directory
@@ -16,7 +26,7 @@ sections:
   match: "*"
 upload_dir: content/uploads
 public_path: "/uploads"
-front_matter_path: ''
+front_matter_path: ":filename:/"
 use_front_matter_path: false
 file_template: ":filename:"
 build:
