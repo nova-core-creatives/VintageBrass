@@ -25,7 +25,7 @@ sections:
   create: all
   match: "*"
 upload_dir: ":filename:"
-public_path: "/uploads"
+public_path: ":filename:"
 front_matter_path: ":filename:"
 use_front_matter_path: true
 file_template: ":filename:"
