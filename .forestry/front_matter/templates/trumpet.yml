@@ -20,14 +20,20 @@ fields:
   label: Description
 - name: gallery
   type: image_gallery
-  config: {}
+  config: {
+    extra_styles:
+    - /partials/gallerycss.html
+
+    extra_scripts:
+    - /partials/gallerysjs.html
+    }
   label: Gallery
 - name: features
   type: list
   config:
     use_select: false
-    min: 
-    max: 
+    min:
+    max:
   label: Features
   description: Share unique details
 pages:
