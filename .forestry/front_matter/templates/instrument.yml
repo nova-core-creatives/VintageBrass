@@ -17,8 +17,6 @@ fields:
 - name: gallery
   type: image_gallery
   config: {
-    upload_dir: content/trumpets
-    public_path: /trumpets
     }
   label: Gallery
 pages:
