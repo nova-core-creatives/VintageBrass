@@ -1,18 +1,18 @@
 <div class="carousel-container">
 
-  {{ with .Page.Params.gallery }}
+  {{- with .Page.Params.gallery }}
   <div class="carousel carousel-main">
-  {{range .}}
+  {{- range .}}
   <div class="carousel-cell"><img  src = "{{ . | relURL }}"></div>
-  {{end}}
+  {{- end}}
  </div>
 
 
   <div class="carousel-nav">
     <div class="carousel-cell is-nav-selected"></div>
-    {{range .}}
+    {{- range .}}
   <div class="carousel-cell"><img src = "{{ . | relURL }}"></div>
-{{end}}
+{{- end}}
 </div>
 </div>
-{{end}}
+{{- end}}
