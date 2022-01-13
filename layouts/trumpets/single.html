@@ -96,24 +96,24 @@
 
     <div class="carousel-container">
 
-      {{- with .Page.Params.gallery }}
+      {{ range .Params.gallery }}
       <div class="carousel carousel-main">
-      {{- range . }}
+
       {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
-      <div class="carousel-cell"><img  src = "{{ $image.RelPermalink }}"></div>
+      <div class="carousel-cell"><img  src = "{{ $imageResource }}"></div>
       {{end}}
      </div>
 
 
       <div class="carousel-nav">
         <div class="carousel-cell is-nav-selected"></div>
-        {{- range .}}
+        {{- range .Params.gallery }}
         {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
-      <div class="carousel-cell"><img src = "{{ $imageResource.RelPermalink }}"></div>
+      <div class="carousel-cell"><img src = "{{ $imageResource}}"></div>
     {{end}}
   </div>
 </div>
-{{end}}
+
 
 
     {{partial "section1.html" .}}
