@@ -18,5 +18,3 @@ fields:
   type: image_gallery
   config: {}
   label: Gallery
-pages:
-- content/Trumpets/template/template.md
