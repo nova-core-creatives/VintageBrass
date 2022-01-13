@@ -1,0 +1,19 @@
+---
+label: Instrument
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: description
+  label: description
+- type: list
+  name: feature
+  label: feature
+- type: list
+  name: gallery
+  label: gallery
