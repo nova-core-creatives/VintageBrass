@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
     
 
-<meta property="og:title" content="AGB" />
-<meta property="og:description" content="§1 Lorem Bacon ipsum dolor amet pig pork hamburger tenderloin burgdoggen spare ribs bacon pancetta pork loin tail turducken. Chicken pastrami jerky tongue ball tip strip steak. Ball tip alcatra turkey, cupim strip steak swine short loin tenderloin pancetta corned beef ribeye cow short ribs. Turkey turducken flank filet mignon beef ribs pastrami rump, andouille prosciutto picanha kevin strip steak. Corned beef fatback landjaeger hamburger alcatra, bacon buffalo tongue cow biltong salami sirloin swine." />
+<meta property="og:title" content="Custom Trumpet" />
+<meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://paulayick.netlify.app/agb/" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://paulayick.netlify.app/instruments/trumpets/custom/" /><meta property="article:section" content="instruments" />
 
 
 
@@ -23,8 +23,86 @@
 <link rel="stylesheet" type="text/css" href="/css/style.min.973539e55bb9a3b263afa3bea3a5c42c6bc9388ce23c69a67bf0e629f1a941a0.css" integrity="sha256-lzU55Vu5o7Jjr6O&#43;o6XELGvJOIziPGmme/DmKfGpQaA=">
 <link rel="stylesheet" type="text/css" href="/css/icons.css">
 
+    <style>
+    * { box-sizing: border-box; }
+
+    body { font-family: sans-serif; }
+
+    .carousel-container {
+      display: flex;
+
+    }
+
+    .carousel {
+      background: #FAFAFA;
+      margin-bottom: 40px;
+      flex-grow: 1;
+
+
+    }
+
+    .carousel-cell {
+      width: 50%;
+      height: 400px;
+      margin-right: 10px;
+      background: white;
+      border-radius: 5px;
+      counter-increment: carousel-cell;
+      display: flex;
+      align-items: center;
+      justify-content: ;
+      object-fit: contain;
+
+
+    }
+
+     
+    .carousel-cell:before {
+      display: block;
+      text-align: center;
+
+      line-height: 300px;
+      font-size: 80px;
+      color: white;
+    }
+
+    .carousel-nav {
+      width: 120px;
+      margin-left: 10px;
+      max-height: 400px;
+      overflow-y: scroll;
+    }
+
+    .carousel-nav .carousel-cell {
+      height: 80px;
+      width: 100px;
+      margin: 0 0 5px 0;
+      cursor: pointer;
+      display: flex;
+
+    }
+
+    .carousel-nav .carousel-cell:before {
+      font-size: 50px;
+      line-height: 80px;
+    }
+
+    .carousel-nav .carousel-cell.is-nav-selected {
+      background: white;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    </style>
+    
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen" >
   </head>
   <body>
+
     
     <div id="preloader">
       <div id="status"></div>
@@ -156,23 +234,14 @@
   <div class="container">
     <div class="columns">
       <div class="column is-centered-tablet-portrait">
-        <h1 class="title section-title">AGB</h1>
-        <h5 class="subtitle is-5 is-muted"></h5>
+        <h1 class="title section-title">Custom Trumpet</h1>
+        <h5 class="subtitle is-5 is-muted">some words of wisdom</h5>
         <div class="divider"></div>
       </div>
     </div>
 
     <div class="content">
-      <h3 class="title is-3">§1 Lorem</h3>
-<p>Bacon ipsum dolor amet pig pork hamburger tenderloin burgdoggen spare ribs bacon pancetta pork loin tail turducken. Chicken pastrami jerky tongue ball tip strip steak. Ball tip alcatra turkey, cupim strip steak swine short loin tenderloin pancetta corned beef ribeye cow short ribs. Turkey turducken flank filet mignon beef ribs pastrami rump, andouille prosciutto picanha kevin strip steak. Corned beef fatback landjaeger hamburger alcatra, bacon buffalo tongue cow biltong salami sirloin swine.</p>
-<br>
-<h3 class="title is-3">§2 Bacon</h3>
-<h5 class="subtitle is-5">§2.1 Bacon1</h5>
-<p>Buffalo cupim kielbasa spare ribs frankfurter. Ribeye pork burgdoggen tenderloin, tail strip steak bacon ham hock pork loin cupim. Bresaola biltong salami, cow ham hock doner pork chop bacon sausage short ribs. Picanha shank sausage turducken. Ham hock t-bone cupim, tri-tip biltong venison flank beef. Cupim bresaola kevin, ham hock beef hamburger tri-tip biltong sirloin filet mignon.</p>
-<br>
-<h5 class="subtitle is-5">§2.2 Bacon2</h5>
-<p>Beef jowl tail alcatra frankfurter bacon t-bone hamburger shankle. Ham hock ball tip spare ribs turkey fatback shank short loin buffalo meatball burgdoggen pork chop shankle. Porchetta buffalo pork belly chicken leberkas drumstick. Jerky chuck brisket spare ribs ribeye pork chop shankle beef ribs beef capicola. Boudin short ribs rump flank picanha. Brisket pork loin turducken, flank jerky pastrami pork chop spare ribs bresaola beef ribs. Cow fatback tenderloin pork loin pancetta.</p>
-
+      
     </div>
   </div>
 </section>
@@ -421,12 +490,6 @@
   <div class="inner">
     <ul class="sidebar-menu">
       
-      <li>
-        <a href="https://paulayick.netlify.app/agb/">
-          AGB
-        </a>
-      </li>
-      
     </ul>
   </div>
 </div>
@@ -440,5 +503,44 @@
 <script src="/js/fresh.js"></script>
 <script src="/js/jquery.panelslider.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js">></script>
+        <script type="text/javascript">
+        var $carousel = $('.carousel').flickity();
+
+        var $carouselNav = $('.carousel-nav');
+        var $carouselNavCells = $carouselNav.find('.carousel-cell');
+
+        $carouselNav.on( 'click', '.carousel-cell', function( event ) {
+          var index = $( event.currentTarget ).index()-1;
+          $carousel.flickity( 'select', index );
+        });
+
+        var flkty = $carousel.data('flickity');
+        var navTop  = $carouselNav.position().top;
+        var navCellHeight = $carouselNavCells.height();
+        var navHeight = $carouselNav.height();
+
+        $carousel.on( 'select.flickity', function() {
+          
+          $carouselNav.find('.is-nav-selected').removeClass('is-nav-selected');
+          var $selected = $carouselNavCells.eq( flkty.selectedIndex )
+            .addClass('is-nav-selected');
+          
+          var scrollY = $selected.position().top +
+            $carouselNav.scrollTop() - ( navHeight + navCellHeight ) / 2;
+          $carouselNav.animate({
+            scrollTop: scrollY
+          });
+        });
+
+        </script>
+
+
+
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
   </body>
 </html>

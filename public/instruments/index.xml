@@ -2,17 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Instruments on Hugo Fresh Theme</title>
-    <link>http://something-fresh.org/instruments/</link>
+    <link>https://paulayick.netlify.app/instruments/</link>
     <description>Recent content in Instruments on Hugo Fresh Theme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 10 Jan 2022 16:39:18 -0600</lastBuildDate><atom:link href="http://something-fresh.org/instruments/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://paulayick.netlify.app/instruments/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Trumpet</title>
-      <link>http://something-fresh.org/instruments/custom/</link>
-      <pubDate>Mon, 10 Jan 2022 16:39:18 -0600</pubDate>
+      <title>Custom Trumpet</title>
+      <link>https://paulayick.netlify.app/instruments/trumpets/custom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/instruments/custom/</guid>
+      <guid>https://paulayick.netlify.app/instruments/trumpets/custom/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
+://paulayick.netlify.app/instruments/mouthpieces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paulayick.netlify.app/instruments/mouthpieces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://paulayick.netlify.app/instruments/trumpets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paulayick.netlify.app/instruments/trumpets/</guid>
       <description></description>
     </item>
     
