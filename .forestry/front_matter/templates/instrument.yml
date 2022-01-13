@@ -16,7 +16,10 @@ fields:
   label: feature
 - name: gallery
   type: image_gallery
-  config: {}
+  config: {
+    upload_dir: content/trumpets
+    public_path: /trumpets
+    }
   label: Gallery
 pages:
 - content/Trumpets/template.md
