@@ -78,9 +78,9 @@
     }
 
     </style>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen" >
     <!-- Add the slick-theme.css if you want default styling -->
 
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen" >
   </head>
   <body>
 
@@ -93,29 +93,29 @@
 
     {{ partial "single/single.html" . }}
 
-
+    {{- with $.Param "gallery" }}
     <div class="carousel-container">
 
-      {{ with .Resources.ByType "image"}}
+      {{- range  . }}
+      {{ $img :=  resources.Get . }}
       <div class="carousel carousel-main">
-      {{range .}}
-      <div class="carousel-cell"><img  src = "{{ .RelPermalink }}"></div>
-      {{end}}
+
+        {{ . }}
+      <div class="carousel-cell"><img  src = "{{ $img.RelPermalink }}"></div>
+      {{- end}}
      </div>
 
 
       <div class="carousel-nav">
         <div class="carousel-cell is-nav-selected"></div>
-        {{range .}}
-      <div class="carousel-cell"><img src = "{{ .RelPermalink }}"></div>
-    {{end}}
-  </div>
-</div>
-{{end}}
+        {{- range . }}
+      <div class="carousel-cell"><img src = "{{ . | relURL }}"></div>
+    {{- end}}
+    </div>
+    </div>
+    {{- end}}
 
 
-    {{partial "section1.html" .}}
-    {{partial "section5.html" .}}
     {{ partial "footer.html" . }}
 
 
@@ -129,44 +129,41 @@
     {{end}}
 
     {{ partial "javascript.html" . }}
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js">></script>
+            <script type="text/javascript">
+            var $carousel = $('.carousel').flickity();
 
+            var $carouselNav = $('.carousel-nav');
+            var $carouselNavCells = $carouselNav.find('.carousel-cell');
 
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js">></script>
-        <script type="text/javascript">
-        var $carousel = $('.carousel').flickity();
+            $carouselNav.on( 'click', '.carousel-cell', function( event ) {
+              var index = $( event.currentTarget ).index()-1;
+              $carousel.flickity( 'select', index );
+            });
 
-        var $carouselNav = $('.carousel-nav');
-        var $carouselNavCells = $carouselNav.find('.carousel-cell');
+            var flkty = $carousel.data('flickity');
+            var navTop  = $carouselNav.position().top;
+            var navCellHeight = $carouselNavCells.height();
+            var navHeight = $carouselNav.height();
 
-        $carouselNav.on( 'click', '.carousel-cell', function( event ) {
-          var index = $( event.currentTarget ).index()-1;
-          $carousel.flickity( 'select', index );
-        });
+            $carousel.on( 'select.flickity', function() {
+              // set selected nav cell
+              $carouselNav.find('.is-nav-selected').removeClass('is-nav-selected');
+              var $selected = $carouselNavCells.eq( flkty.selectedIndex )
+                .addClass('is-nav-selected');
+              // scroll nav
+              var scrollY = $selected.position().top +
+                $carouselNav.scrollTop() - ( navHeight + navCellHeight ) / 2;
+              $carouselNav.animate({
+                scrollTop: scrollY
+              });
+            });
 
-        var flkty = $carousel.data('flickity');
-        var navTop  = $carouselNav.position().top;
-        var navCellHeight = $carouselNavCells.height();
-        var navHeight = $carouselNav.height();
-
-        $carousel.on( 'select.flickity', function() {
-          // set selected nav cell
-          $carouselNav.find('.is-nav-selected').removeClass('is-nav-selected');
-          var $selected = $carouselNavCells.eq( flkty.selectedIndex )
-            .addClass('is-nav-selected');
-          // scroll nav
-          var scrollY = $selected.position().top +
-            $carouselNav.scrollTop() - ( navHeight + navCellHeight ) / 2;
-          $carouselNav.animate({
-            scrollTop: scrollY
-          });
-        });
-
-        </script>
+            </script>
 
 
 
-      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
+          <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+          <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   </body>
 </html>
