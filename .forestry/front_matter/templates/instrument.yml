@@ -20,5 +20,4 @@ fields:
   label: Gallery
 pages:
 - content/Trumpets/template-1.md
-- content/Trumpets/template.md
 - content/Trumpets/template/template.md
