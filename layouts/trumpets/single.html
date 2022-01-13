@@ -96,10 +96,10 @@
 
     <div class="carousel-container">
 
-      {{ with .Resources.ByType "image"}}
+      {{ with .Page.Params.gallery }}
       <div class="carousel carousel-main">
       {{range .}}
-      <div class="carousel-cell"><img  src = "{{ .RelPermalink }}"></div>
+      <div class="carousel-cell"><img  src = "{{ . }}"></div>
       {{end}}
      </div>
 
@@ -107,7 +107,7 @@
       <div class="carousel-nav">
         <div class="carousel-cell is-nav-selected"></div>
         {{range .}}
-      <div class="carousel-cell"><img src = "{{ .RelPermalink }}"></div>
+      <div class="carousel-cell"><img src = "{{ . }}"></div>
     {{end}}
   </div>
 </div>
