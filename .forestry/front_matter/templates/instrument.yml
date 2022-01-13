@@ -19,5 +19,4 @@ fields:
   config: {}
   label: Gallery
 pages:
-- content/Trumpets/template-1.md
 - content/Trumpets/template/template.md
