@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html>
   <head>
     {{ partial "meta.html" . }}
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     {{ partial "css.html" . }}
+    {{ partial "gallerycss.html" }}
+    <!-- Add the slick-theme.css if you want default styling -->
+
   </head>
   <body>
+
     <!-- Preloader -->
     <div id="preloader">
       <div id="status"></div>
@@ -15,19 +19,28 @@
 
     {{ partial "single/single.html" . }}
 
-    {{ if .Params.include_footer }}
+
+
+    {{partial "gallery.html" . }}
+
+    {{partial "section1.html" .}}
+    {{partial "section5.html" .}}
     {{ partial "footer.html" . }}
-    {{ end }}
+
 
     <!-- Back To Top Button -->
     <div id="backtotop"><a href="#"></a></div>
 
-
+    {{if .Page.Params.include_sidebar}}
     {{ partial "single/sidebar.html" . }}
+    {{end}}
 
-
-    {{ end }}
+    {{end}}
 
     {{ partial "javascript.html" . }}
+    {{ partial "galleryjs.html" . }}
+
+
+
   </body>
 </html>
