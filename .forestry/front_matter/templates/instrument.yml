@@ -16,8 +16,7 @@ fields:
   label: feature
 - name: gallery
   type: image_gallery
-  config: {
-    }
+  config: {}
   label: Gallery
 pages:
 - content/Trumpets/template.md
