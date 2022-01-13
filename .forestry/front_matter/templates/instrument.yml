@@ -1,0 +1,21 @@
+---
+label: Instrument
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: image_gallery
+  name: gallery
+  label: gallery
+- type: list
+  name: features
+  label: features
+- type: text
+  name: description
+  label: description
+pages:
+- content/Trumpets/besson-brevete-87460.md
