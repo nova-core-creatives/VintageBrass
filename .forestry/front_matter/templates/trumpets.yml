@@ -22,3 +22,5 @@ fields:
     min: 
     max: 
   label: Feature
+pages:
+- content/Trumpets/Custom.md
