@@ -6,10 +6,10 @@
 {{- $navbarLogo     := .Site.Params.navbarlogo }}
 <nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
-    <div class="navbar-brand">
+    <div class="navbar-brand" style ="justify-content: space-evenly">
       {{- if $navbarLogo}}
       <a class="navbar-item" href="{{ $navbarLogo.link }}">
-        <img src="{{ printf "/images/%s" $navbarLogo.image | relURL }}" alt="" width="112" height="28">
+        <img style = "object-fit: fill" src="{{ printf "/images/%s" $navbarLogo.image | relURL }}" alt="" width="112" height="112">
       </a>
       {{- end}}
 

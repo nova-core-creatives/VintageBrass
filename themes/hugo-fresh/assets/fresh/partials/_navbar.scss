@@ -23,13 +23,15 @@ Navbar
     .navbar-brand {
         min-height: 4rem;
         img {
-            max-height: 36px !important;
-            height: 36px;
+            max-height: 200px !important;
+            height: 200px;
+            width: 400px;
         }
         //Removing navbar item default hover behaviour
         &:hover {
             .navbar-item {
                 background: transparent !important;
+                height: 200px;
             }
         }
     }
@@ -38,6 +40,11 @@ Navbar
     }
     //Navbar items
     .navbar-item {
+      img {
+          max-height: 1000px !important;
+          height: 1000px;
+
+      }
         color: $muted-grey;
         &.is-secondary {
             &:hover {
@@ -110,6 +117,6 @@ Navbar
     z-index: 100;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
     &.is-active {
-        transform: translateY(0); 
+        transform: translateY(0);
     }
 }

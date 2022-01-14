@@ -6,8 +6,6 @@ googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX
 # Disables warnings
 
 
-carousel_css: static/css/flickity.css
-
 taxonomies:
   category: instruments
   types: types
@@ -37,22 +35,22 @@ params:
   description:
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: logos/name.svg
     link: /
   font:
-    name: "Open Sans"
+    name: "Lexand Peta"
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: Vintage Brass.
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: Trumpets, Cornets, Brass, and Other Winds
     # Button text
-    buttontext: Get started
+    buttontext: Learn More
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
+    image: logos/hero.svg
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
     - systek
@@ -61,9 +59,6 @@ params:
     - infinite
     - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
-  instruments:
-  - title: Trumpets
-    url: /tru
 
 
 
@@ -90,7 +85,7 @@ params:
     enable: true
 
     # Logo (from /images/logos/___.svg)
-    logo: fresh-square
+    logo: symbol
     sections:
     - title: Trumpets
       icon: user
@@ -169,7 +164,7 @@ params:
   section5: true
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: Vintage.png
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.

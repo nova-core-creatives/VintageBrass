@@ -10,24 +10,25 @@
   </div>
   <div class="inner">
     <ul class="sidebar-menu">
-      {{- range $sections }}
+
+      {{- range Sections}}
       <li class="have-children">
         <a href="#">
-          <span class="fa fa-{{ .icon }}"></span>
-          {{ .title }}
+          <span class=""></span>
+          {{ .Name }}
         </a>
         <ul>
-          {{ with .Site.GetPage .Section.path}}
-          {{range . }}
+          {{- range .Pages }}
           <li>
-            <a href="{{ .url }}">
-              {{ . }}
+            <a href="{{ .Permalink }}">
+              {{ .Title }}
             </a>
           </li>
           {{- end }}
         </ul>
       </li>
       {{- end }}
+
     </ul>
   </div>
 </div>

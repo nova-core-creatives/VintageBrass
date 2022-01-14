@@ -4,20 +4,11 @@
 {{- $features := index $section2 "features" }}
 <section class="section is-medium">
   <div class="container">
-    <div class="columns">
-      <div class="column is-centered-tablet-portrait">
-        <h1 class="title section-title">{{ $title }}</h1>
-        <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
-        <div class="divider"></div>
-      </div>
-      <div class="column is-7 mt-60">
+
+      <div class="column is-7 mt-60" style="text-align:center;">
         {{- range $features }}
         <article class="media icon-box">
-          <figure class="media-left">
-            <p class="image">
-              <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
-            </p>
-          </figure>
+
           <div class="media-content mt-50">
             <div class="content">
               <p>
@@ -31,5 +22,5 @@
         {{- end }}
       </div>
     </div>
-  </div>
+
 </section>
