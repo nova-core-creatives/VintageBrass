@@ -16,7 +16,7 @@
       <li class="have-children">
         <a href="#">
           <span class=""></span>
-          {{ $key }}
+          {{ humanize $key }}
         </a>
         <ul>
           {{- range $taxonomy.Pages }}
@@ -24,7 +24,7 @@
             <script>console.log({{$file}})</script>
           <li>
             <a href="{{ .RelPermalink }}">
-              {{ .Title }}
+              {{ humanize .Title }}
             </a>
           </li>
           {{- end }}
