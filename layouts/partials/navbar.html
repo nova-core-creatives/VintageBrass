@@ -6,7 +6,7 @@
 {{- $navbarLogo     := .Site.Params.navbarlogo }}
 <nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
-    <div class="navbar-brand" style ="justify-content: space-evenly">
+    <div class="navbar-brand" >
       {{- if $navbarLogo}}
       <a class="navbar-item" href="{{ $navbarLogo.link }}">
         <img style = "object-fit: fill" src="{{ printf "/images/%s" $navbarLogo.image | relURL }}" alt="" width="112" height="112">
@@ -37,7 +37,7 @@
 
         {{- if $sidebarVisible }}
         <div class="navbar-start">
-          <a class="navbar-item is-hidden-mobile">
+          <a class="navbar-item">
             <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
               <svg width="1000px" height="1000px">
                 <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
