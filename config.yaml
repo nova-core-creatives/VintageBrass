@@ -3,7 +3,7 @@ baseURL: https://paulayick.netlify.app/
 languageCode: en-us
 title: Hugo Fresh Theme
 theme: hugo-fresh
-googleAnalytics: 
+googleAnalytics:
 uglyurls: false
 permalinks:
   instruments: instruments/:slug/
@@ -18,7 +18,7 @@ markup:
       unsafe: true
 params:
   openGraph: true
-  description: 
+  description:
   navbarlogo:
     image: logos/name.svg
     link: "/"
@@ -60,6 +60,7 @@ params:
       icon: cog
       path: misc
   section1:
+    enable: false
     title: Great power comes
     subtitle: with great responsibility
     tiles:
