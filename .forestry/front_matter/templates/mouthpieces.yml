@@ -1,0 +1,25 @@
+---
+label: MouthPieces
+hide_body: true
+fields:
+- type: image_gallery
+  name: images
+  label: images
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: title
+  label: title
+- type: text
+  name: instruments
+  label: instruments
+- type: text
+  name: series
+  label: series
+- type: text
+  name: names
+  label: names
+- type: list
+  name: tags
+  label: tags
