@@ -20,7 +20,7 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/instruments/trumpets
+  path: instruments/trumpets
   label: Trumpets
   create: all
   match: "**/*"
