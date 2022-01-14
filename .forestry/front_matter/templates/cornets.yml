@@ -28,3 +28,4 @@ fields:
   name: cornets
   label: instruments
   hidden: true
+  default: cornets
