@@ -19,7 +19,7 @@
         <ul>
           <script type="text/javascript"></script>
             {{ $filePath := strings.TrimPrefix "content/" .path}}
-            {{ range readDir .path | absLangURL }}
+            {{ range readDir .$filePath | absLangURL }}
             {{ if ne .Name  "_index.md"}}
             <li>
             <a href="{{ $filePath }}{{ .Name | relURL }}">
