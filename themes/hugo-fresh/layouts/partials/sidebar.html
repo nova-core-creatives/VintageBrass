@@ -17,10 +17,11 @@
           {{ .title }}
         </a>
         <ul>
-          {{- range .links }}
+          {{ with .Site.GetPage .Section.path}}
+          {{range . }}
           <li>
             <a href="{{ .url }}">
-              {{ .text }}
+              {{ . }}
             </a>
           </li>
           {{- end }}

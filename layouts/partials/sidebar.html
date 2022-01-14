@@ -10,25 +10,28 @@
   </div>
   <div class="inner">
     <ul class="sidebar-menu">
-
-      {{- range .Sections}}
+      {{- range $sections }}
       <li class="have-children">
         <a href="#">
-          <span class=""></span>
-          {{ .Name }}
+          <span class="fa fa-{{ .icon }}"></span>
+          {{ .path}}
         </a>
         <ul>
-          {{- range .Pages }}
-          <li>
-            <a href="{{ .Permalink }}">
-              {{ .Title }}
+          <script type="text/javascript"></script>
+            {{ $filePath := strings.TrimPrefix "content/" .path}}
+            {{ range readDir .path}}
+            {{ if ne .Name  "_index.md"}}
+            <li>
+            <a href="{{ $filePath }}{{ .Name | relURL }}">
+              {{ humanize .Name }}
             </a>
           </li>
           {{- end }}
+          {{- end }}
         </ul>
       </li>
-      {{- end }}
 
+      {{- end }}
     </ul>
   </div>
 </div>

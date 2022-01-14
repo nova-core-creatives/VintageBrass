@@ -5,79 +5,80 @@
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     {{ partial "css.html" . }}
     <style>
-   * { box-sizing: border-box; }
+    * { box-sizing: border-box; }
 
-   body { font-family: sans-serif; }
+    body { font-family: sans-serif; }
 
-   .carousel-container {
-     display: flex;
+    .carousel-container {
+      display: flex;
 
-   }
+    }
 
-   .carousel {
-     background: #FAFAFA;
-     margin-bottom: 40px;
-     flex-grow: 1;
-
-
-   }
-
-   .carousel-cell {
-     width: 50%;
-     height: 400px;
-     margin-right: 10px;
-     background: white;
-     border-radius: 5px;
-     counter-increment: carousel-cell;
-     display: flex;
-     align-items: center;
-     justify-content: ;
-     object-fit: contain;
+    .carousel {
+      background: #FAFAFA;
+      margin-bottom: 40px;
+      flex-grow: 1;
 
 
-   }
+    }
 
-   /* cell number */
-   .carousel-cell:before {
-     display: block;
-     text-align: center;
+    .carousel-cell {
+      width: 50%;
+      height: 400px;
+      margin-right: 10px;
+      background: white;
+      border-radius: 5px;
+      counter-increment: carousel-cell;
+      display: flex;
+      align-items: center;
+      justify-content: ;
+      object-fit: contain;
 
-     line-height: 300px;
-     font-size: 80px;
-     color: white;
-   }
 
-   .carousel-nav {
-     width: 120px;
-     margin-left: 10px;
-     max-height: 400px;
-     overflow-y: scroll;
-   }
+    }
 
-   .carousel-nav .carousel-cell {
-     height: 80px;
-     width: 100px;
-     margin: 0 0 5px 0;
-     cursor: pointer;
-     display: flex;
+    /* cell number */
+    .carousel-cell:before {
+      display: block;
+      text-align: center;
 
-   }
+      line-height: 300px;
+      font-size: 80px;
+      color: white;
+    }
 
-   .carousel-nav .carousel-cell:before {
-     font-size: 50px;
-     line-height: 80px;
-   }
+    .carousel-nav {
+      width: 120px;
+      margin-left: 10px;
+      max-height: 400px;
+      overflow-y: scroll;
+    }
 
-   .carousel-nav .carousel-cell.is-nav-selected {
-     background: white;
-   }
-   img {
-     width: 100%;
-     height: 100%;
-     object-fit: contain;
-   }
+    .carousel-nav .carousel-cell {
+      height: 80px;
+      width: 100px;
+      margin: 0 0 5px 0;
+      cursor: pointer;
+      display: flex;
+
+    }
+
+    .carousel-nav .carousel-cell:before {
+      font-size: 50px;
+      line-height: 80px;
+    }
+
+    .carousel-nav .carousel-cell.is-nav-selected {
+      background: white;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
 
     </style>
+    <!-- Add the slick-theme.css if you want default styling -->
 
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen" >
   </head>
@@ -95,12 +96,9 @@
 
     <div class="carousel-container">
 
-
-
       <div class="carousel carousel-main">
-
-      {{ range .Params.images }}
-      <div class="carousel-cell"><img style="object-fit: contain" src = "{{ . | relURL }}"></div>
+        {{ range .Params.images }}
+        <div class="carousel-cell"><img style="object-fit: contain" src = "{{ . | relURL }}"></div>
       {{end}}
      </div>
 
@@ -108,9 +106,8 @@
       <div class="carousel-nav">
         <div class="carousel-cell is-nav-selected"></div>
         {{ range .Params.images }}
-
       <div class="carousel-cell"><img style="object-fit: contain"src = "{{ . | relURL }}"></div>
-    {{end}}
+      {{end}}
   </div>
 </div>
 

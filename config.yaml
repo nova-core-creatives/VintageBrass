@@ -94,34 +94,20 @@ params:
     sections:
     - title: Trumpets
       icon: user
-      links:
-      - text: Custom Trumpet
-        url: instruments/trumpets/custom
-      - text:
-        url: /
-      - text:
-        url: /
+      path: content/instruments/trumpets
+
     - title: Cornets
       icon: envelope
-      links:
-      - text:
-        url: /
-      - text:
-        url: /
+      path: content/instruments/cornets
+
     - title: Mouthpieces
       icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
+      path: content/instruments/mouthpieces
+
     - title: Misc
       icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
+      path: content/instruments/misc
+
 
 
 
