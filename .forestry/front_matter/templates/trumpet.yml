@@ -14,17 +14,17 @@ fields:
 - type: list
   name: tags
   label: tags
-- type: text
-  name: instruments
-  label: instruments
-  hidden: true
 - type: image_gallery
   name: images
   label: images
 - name: description
-  type: blocks
-  label: Description
-  template_types: []
+  type: list
   config:
+    use_select: false
     min: 
     max: 
+  label: Description
+- type: text
+  name: instruments
+  label: instruments
+  hidden: true
