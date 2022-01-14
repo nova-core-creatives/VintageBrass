@@ -89,19 +89,19 @@ params:
     sections:
     - title: Trumpets
       icon: user
-      path: content/instruments/trumpets
+      path: trumpets
 
     - title: Cornets
       icon: envelope
-      path: content/instruments/cornets
+      path: cornets
 
     - title: Mouthpieces
       icon: image
-      path: content/instruments/mouthpieces
+      path: mouthpieces
 
     - title: Misc
       icon: cog
-      path: content/instruments/misc
+      path: misc
 
 
 
