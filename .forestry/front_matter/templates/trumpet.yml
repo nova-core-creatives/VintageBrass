@@ -28,3 +28,5 @@ fields:
   name: instruments
   label: instruments
   hidden: true
+pages:
+- content/instruments/Trumpets/brevette-82694.md
