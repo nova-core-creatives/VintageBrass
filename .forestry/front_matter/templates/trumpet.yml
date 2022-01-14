@@ -2,9 +2,6 @@
 label: Trumpet
 hide_body: true
 fields:
-- type: image_gallery
-  name: images
-  label: images
 - type: text
   name: subtitle
   label: subtitle
@@ -12,14 +9,22 @@ fields:
   name: title
   label: title
 - type: text
-  name: instruments
-  label: instruments
-- type: text
   name: series
   label: series
-- type: text
-  name: names
-  label: names
 - type: list
   name: tags
   label: tags
+- type: text
+  name: instruments
+  label: instruments
+  hidden: true
+- type: image_gallery
+  name: images
+  label: images
+- name: description
+  type: blocks
+  label: Description
+  template_types: []
+  config:
+    min: 
+    max: 
