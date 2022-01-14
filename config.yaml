@@ -128,19 +128,13 @@ params:
   section5: true
   footer:
     logo: Vintage.png
-    socialmediatitle: Follow Us
+    socialmediatitle: Follow Me
     socialmedia:
-    - link: https://m.facebook.com/Paul-Ayick-Music-181953292011841/
-      icon: facebook
     - link: https://www.linkedin.com/in/paul-ayick-7a98599/
       icon: linked-in
     - link: https://facebook.com/Paul-Ayick-Music-181953292011841/
       icon: facebook
-    - link: https://twitter.com/lucperkins
-      icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
-    bulmalogo: true
+    bulmalogo: false
     quicklinks:
       column1:
         title: Product
