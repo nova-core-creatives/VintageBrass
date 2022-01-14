@@ -36,11 +36,10 @@ params:
     clientlogos:
     - ''
   navbar:
-  - title: Features
-    url: "/"
+  - title: Contact
+    url: "#contact"
   - title: Pricing
     url: "/"
-  - title: Dropdown
   - title: Contact
     url: "/contact"
     button: true
