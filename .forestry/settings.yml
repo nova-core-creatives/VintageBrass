@@ -23,7 +23,7 @@ sections:
   path: content/instruments/trumpets
   label: Trumpets
   create: all
-  match: "*.md"
+  match: "**/*.md"
 - type: directory
   path: content
   label: Pages
