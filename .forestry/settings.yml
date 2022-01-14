@@ -4,26 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: config.yaml
+  label: HomePage
+  match: "**/*"
 - type: directory
   path: content/instruments
   label: Intruments
   create: all
   match: "**/*"
-- type: directory
-  path: content/instruments/mouthpieces
-  label: Mouthpieces
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/instruments/cornets
-  label: Cornets
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/instruments/trumpets
-  label: Trumpets
-  create: all
-  match: "**"
 - type: directory
   path: content
   label: Pages
