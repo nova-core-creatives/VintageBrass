@@ -2,61 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo Fresh Theme</title>
-    <link>https://paulayick.netlify.app/index.html</link>
+    <link>https://paulayick.netlify.app/</link>
     <description>Recent content on Hugo Fresh Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://paulayick.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://paulayick.netlify.app/instruments/cornets/</link>
+      <title>AGB</title>
+      <link>https://paulayick.netlify.app/agb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://paulayick.netlify.app/instruments/cornets/</guid>
+      <guid>https://paulayick.netlify.app/agb/</guid>
+      <description>§1 Lorem Bacon ipsum dolor amet pig pork hamburger tenderloin burgdoggen spare ribs bacon pancetta pork loin tail turducken. Chicken pastrami jerky tongue ball tip strip steak. Ball tip alcatra turkey, cupim strip steak swine short loin tenderloin pancetta corned beef ribeye cow short ribs. Turkey turducken flank filet mignon beef ribs pastrami rump, andouille prosciutto picanha kevin strip steak. Corned beef fatback landjaeger hamburger alcatra, bacon buffalo tongue cow biltong salami sirloin swine.</description>
+    </item>
+    
+    <item>
+      <title>balllltt</title>
+      <link>https://paulayick.netlify.app/instruments/balllltt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://paulayick.netlify.app/instruments/balllltt/</guid>
       <description></description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://paulayick.netlify.app/instruments/mouthpieces/</link>
+      <title>miscFun</title>
+      <link>https://paulayick.netlify.app/instruments/miscfun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://paulayick.netlify.app/instruments/mouthpieces/</guid>
+      <guid>https://paulayick.netlify.app/instruments/miscfun/</guid>
       <description></description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://paulayick.netlify.app/instruments/trumpets/</link>
+      <title>mouthpiece</title>
+      <link>https://paulayick.netlify.app/instruments/mouthpiece/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://paulayick.netlify.app/instruments/trumpets/</guid>
+      <guid>https://paulayick.netlify.app/instruments/mouthpiece/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Instruments</title>
-      <link>https://paulayick.netlify.app/instruments/</link>
+      <title>trumTemp</title>
+      <link>https://paulayick.netlify.app/instruments/trumtemp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://paulayick.netlify.app/instruments/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tags</title>
-      <link>https://paulayick.netlify.app/tags/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://paulayick.netlify.app/tags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Types</title>
-      <link>https://paulayick.netlify.app/types/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://paulayick.netlify.app/types/</guid>
+      <guid>https://paulayick.netlify.app/instruments/trumtemp/</guid>
       <description></description>
     </item>
     

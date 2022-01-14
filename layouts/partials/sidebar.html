@@ -10,33 +10,28 @@
   </div>
   <div class="inner">
     <ul class="sidebar-menu">
-      {{- range $sections }}
+
+      {{ range $key, $taxonomy := .Site.Taxonomies.instruments }}
+      <script>console.log({{$key}})</script>
       <li class="have-children">
         <a href="#">
-          <span class="fa fa-{{ .icon }}"></span>
-          {{ .title}}
+          <span class=""></span>
+          {{ $key }}
         </a>
         <ul>
-          <script type="text/javascript"></script>
-            {{ $filePath := (printf "/content/instruments/%s" .path )}}
-
-
-            {{ range readDir $filePath }}
-            {{ if ne .Name  "index.html"}}
-            {{ if ne .Name  "index.xml"}}
-            {{ $file := strings.TrimPrefix "/content/" $filePath  }}
-            <li>
-            <a href="{{ $file }}{{ .Name | relURL }}">
-              {{ humanize .Name }}
+          {{- range $taxonomy.Pages }}
+          {{ $file := printf "/instruments/%s" .Title}}
+            <script>console.log({{$file}})</script>
+          <li>
+            <a href="{{ .RelPermalink }}">
+              {{ .Title }}
             </a>
           </li>
           {{- end }}
-          {{- end }}
-          {{- end }}
         </ul>
       </li>
-
       {{- end }}
+
     </ul>
   </div>
 </div>

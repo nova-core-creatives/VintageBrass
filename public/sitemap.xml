@@ -2,30 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://paulayick.netlify.app/index.html</loc>
+    <loc>https://paulayick.netlify.app/instruments/</loc>
+    <priority>0</priority>
   </url><url>
-    <loc>https://paulayick.netlify.app/instruments/cornets/</loc>
+    <loc>https://paulayick.netlify.app/instruments/</loc>
+    <priority>0</priority>
   </url><url>
-    <loc>https://paulayick.netlify.app/instruments/mouthpieces/</loc>
+    <loc>https://paulayick.netlify.app/instruments/</loc>
+    <priority>0</priority>
   </url><url>
-    <loc>https://paulayick.netlify.app/instruments/trumpets/</loc>
+    <loc>https://paulayick.netlify.app/instruments/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://paulayick.netlify.app/instruments/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>https://paulayick.netlify.app/agb/</loc>
   </url><url>
-    <loc>https://paulayick.netlify.app/instruments/cornets/blllatt/</loc>
+    <loc>https://paulayick.netlify.app/instruments/balllltt/</loc>
   </url><url>
-    <loc>https://paulayick.netlify.app/instruments/trumpets/custom/</loc>
+    <loc>https://paulayick.netlify.app/names/bllatt/</loc>
+  </url><url>
+    <loc>https://paulayick.netlify.app/tags/cool/</loc>
+  </url><url>
+    <loc>https://paulayick.netlify.app/tags/hip/</loc>
   </url><url>
     <loc>https://paulayick.netlify.app/</loc>
   </url><url>
     <loc>https://paulayick.netlify.app/instruments/</loc>
   </url><url>
-    <loc>https://paulayick.netlify.app/instruments/</loc>
+    <loc>https://paulayick.netlify.app/instruments/miscfun/</loc>
   </url><url>
-    <loc>https://paulayick.netlify.app/instruments/trumpets/students/</loc>
+    <loc>https://paulayick.netlify.app/instruments/mouthpiece/</loc>
+  </url><url>
+    <loc>https://paulayick.netlify.app/names/</loc>
+  </url><url>
+    <loc>https://paulayick.netlify.app/series/</loc>
   </url><url>
     <loc>https://paulayick.netlify.app/tags/</loc>
   </url><url>
-    <loc>https://paulayick.netlify.app/types/</loc>
+    <loc>https://paulayick.netlify.app/instruments/trumtemp/</loc>
+  </url><url>
+    <loc>https://paulayick.netlify.app/tags/yes/</loc>
   </url>
 </urlset>

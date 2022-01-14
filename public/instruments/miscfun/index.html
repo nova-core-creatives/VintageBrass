@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-	<meta name="generator" content="Hugo 0.91.2" />
     
 
-<meta property="og:title" content="Hugo Fresh Theme" />
+<meta property="og:title" content="miscFun" />
 <meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://paulayick.netlify.app/" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulayick.netlify.app/instruments/miscfun/" /><meta property="og:image" content="https://paulayick.netlify.app/uploads/conn-28b-gold.jpeg" /><meta property="og:image" content="https://paulayick.netlify.app/uploads/conn-28b-gold-engraving.jpeg" /><meta property="og:image" content="https://paulayick.netlify.app/uploads/conn-2b-073.jpeg" /><meta property="og:image" content="https://paulayick.netlify.app/uploads/besson-fabrication-before.jpeg" /><meta property="og:image" content="https://paulayick.netlify.app/uploads/engraving-052.jpeg" /><meta property="og:image" content="https://paulayick.netlify.app/uploads/me-at-trpt-summit.jpeg" /><meta property="article:section" content="instruments" />
+
+
 
 
 
@@ -22,17 +23,94 @@
 <link rel="stylesheet" type="text/css" href="/css/style.min.256011885cfcb43a197564ff4f9e8c3b84acc2ce8d8955cc4f05e04d91eafd6b.css" integrity="sha256-JWARiFz8tDoZdWT/T56MO4Ssws6NiVXMTwXgTZHq/Ws=">
 <link rel="stylesheet" type="text/css" href="/css/icons.css">
 
+    <style>
+    * { box-sizing: border-box; }
+
+    body { font-family: sans-serif; }
+
+    .carousel-container {
+      display: flex;
+
+    }
+
+    .carousel {
+      background: #FAFAFA;
+      margin-bottom: 40px;
+      flex-grow: 1;
+
+
+    }
+
+    .carousel-cell {
+      width: 100%;
+      height: 500px;
+      margin-right: 10px;
+      background: white;
+      border-radius: 5px;
+      counter-increment: carousel-cell;
+      display: flex;
+      align-items: center;
+      justify-content: ;
+      object-fit: contain;
+
+
+    }
+
+     
+    .carousel-cell:before {
+      display: block;
+      text-align: center;
+
+      line-height: 300px;
+      font-size: 80px;
+      color: white;
+    }
+
+    .carousel-nav {
+      width: 120px;
+      margin-left: 10px;
+      max-height: 400px;
+      overflow-y: scroll;
+    }
+
+    .carousel-nav .carousel-cell {
+      height: 80px;
+      width: 100px;
+      margin: 0 0 5px 0;
+      cursor: pointer;
+      display: flex;
+
+    }
+
+    .carousel-nav .carousel-cell:before {
+      font-size: 50px;
+      line-height: 80px;
+    }
+
+    .carousel-nav .carousel-cell.is-nav-selected {
+      background: white;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    </style>
+    
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen" >
   </head>
   <body>
+
     
     <div id="preloader">
       <div id="status"></div>
     </div>
 
     
+
     
-    <section class="hero is-fullheight is-default is-bold">
-  
 
 <nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
@@ -92,7 +170,7 @@
   </div>
 </nav>
 
-  
+
 
 <nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
   <div class="container">
@@ -152,154 +230,79 @@
 </div>
 </nav>
 
-  
-<div class="hero-body">
-  <div class="container">
-    <div class="columns is-vcentered">
-      <div class="column is-5 is-offset-1 landing-caption">
-        <h1 class="title is-1 is-bold is-spaced">
-          Vintage Brass.
-        </h1>
-        
-        <h2 class="subtitle is-5 is-muted">
-          Trumpets, Cornets, Brass, and Other Winds
-        </h2>
-        
-        <p>
-          <a class="button cta rounded primary-btn raised" href="#">
-            Learn More
-          </a>
-        </p>
-      </div>
-      <div class="column is-5 is-offset-1">
-        <figure class="image is-4by3">
-          <img style= "width: 400px; height: 400px; align:center;"  src="/images/logos/hero.svg" alt="Description">
-        </figure>
-      </div>
-    </div>
-  </div>
-</div>
-
-  
-<div class="hero-foot mb-20">
-  <div class="container">
-    <div class="tabs is-centered">
-      <ul>
-        <li>
-          <a>
-            <img class="partner-logo" src="/images/logos/clients/systek.svg">
-          </a>
-        </li>
-        <li>
-          <a>
-            <img class="partner-logo" src="/images/logos/clients/tribe.svg">
-          </a>
-        </li>
-        <li>
-          <a>
-            <img class="partner-logo" src="/images/logos/clients/kromo.svg">
-          </a>
-        </li>
-        <li>
-          <a>
-            <img class="partner-logo" src="/images/logos/clients/infinite.svg">
-          </a>
-        </li>
-        <li>
-          <a>
-            <img class="partner-logo" src="/images/logos/clients/gutwork.svg">
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-</section>
-    
-
-    
-    
-<section class="section section-feature-grey is-medium">
-  <div class="container">
-    <div class="title-wrapper has-text-centered">
-      <h2 class="title is-2">Great power comes</h2>
-      <h3 class="subtitle is-5 is-muted">with great responsibility</h3>
-      <div class="divider is-centered"></div>
-    </div>
-
-    <div class="content-wrapper">
-      <div class="columns">
-        <div class="column is-one-third">
-          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
-            <div class="card-title">
-              <h4>App builder</h4>
-            </div>
-            <div class="card-icon">
-                <img src="/images/illustrations/icons/mouse-globe.svg">
-            </div>
-            <div class="card-text">
-                <p>This is some explanatory text that is on two rows</p>
-            </div>
-            <div class="card-action">
-              <a href="/" class="button btn-align-md accent-btn raised">Free trial</a>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-third">
-          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
-            <div class="card-title">
-              <h4>Cloud integration</h4>
-            </div>
-            <div class="card-icon">
-                <img src="/images/illustrations/icons/laptop-cloud.svg">
-            </div>
-            <div class="card-text">
-                <p>This is some explanatory text that is on two rows</p>
-            </div>
-            <div class="card-action">
-              <a href="/" class="button btn-align-md accent-btn raised">Get started</a>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-third">
-          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
-            <div class="card-title">
-              <h4>Add-ons &amp; plugins</h4>
-            </div>
-            <div class="card-icon">
-                <img src="/images/illustrations/icons/plug-cloud.svg">
-            </div>
-            <div class="card-text">
-                <p>This is some explanatory text that is on two rows</p>
-            </div>
-            <div class="card-action">
-              <a href="/" class="button btn-align-md accent-btn raised">Get started</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-    
-
-    
-    
 <section class="section is-medium">
   <div class="container">
     <div class="columns">
       <div class="column is-centered-tablet-portrait">
-        <h1 class="title section-title">You&#39;re here because you want the best</h1>
-        <h3 class="subtitle is-5 is-muted">And we know it</h3>
+        <h1 class="title section-title">miscFun</h1>
+        <h5 class="subtitle is-5 is-muted">BLLLAAATTT</h5>
         <div class="divider"></div>
       </div>
-      <div class="column is-7 mt-60">
+    </div>
+
+    <div class="content">
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+    <div class="carousel-container">
+
+      <div class="carousel carousel-main">
+        
+        <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/conn-28b-gold.jpeg"></div>
+      
+        <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/conn-28b-gold-engraving.jpeg"></div>
+      
+        <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/conn-2b-073.jpeg"></div>
+      
+        <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/besson-fabrication-before.jpeg"></div>
+      
+        <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/engraving-052.jpeg"></div>
+      
+        <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/me-at-trpt-summit.jpeg"></div>
+      
+        <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/wc-handy.jpeg"></div>
+      
+        <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/conn-french.jpeg"></div>
+      
+     </div>
+
+
+      <div class="carousel-nav">
+        <div class="carousel-cell is-nav-selected"></div>
+        
+      <div class="carousel-cell"><img style="object-fit: contain"src = "/uploads/conn-28b-gold.jpeg"></div>
+      
+      <div class="carousel-cell"><img style="object-fit: contain"src = "/uploads/conn-28b-gold-engraving.jpeg"></div>
+      
+      <div class="carousel-cell"><img style="object-fit: contain"src = "/uploads/conn-2b-073.jpeg"></div>
+      
+      <div class="carousel-cell"><img style="object-fit: contain"src = "/uploads/besson-fabrication-before.jpeg"></div>
+      
+      <div class="carousel-cell"><img style="object-fit: contain"src = "/uploads/engraving-052.jpeg"></div>
+      
+      <div class="carousel-cell"><img style="object-fit: contain"src = "/uploads/me-at-trpt-summit.jpeg"></div>
+      
+      <div class="carousel-cell"><img style="object-fit: contain"src = "/uploads/wc-handy.jpeg"></div>
+      
+      <div class="carousel-cell"><img style="object-fit: contain"src = "/uploads/conn-french.jpeg"></div>
+      
+  </div>
+</div>
+
+
+
+    
+<section class="section is-medium">
+  <div class="container">
+
+      <div class="column is-7 mt-60" style="text-align:center;">
         <article class="media icon-box">
-          <figure class="media-left">
-            <p class="image">
-              <img src="/images/illustrations/icons/laptop-globe.svg">
-            </p>
-          </figure>
+
           <div class="media-content mt-50">
             <div class="content">
               <p>
@@ -311,11 +314,7 @@
           </div>
         </article>
         <article class="media icon-box">
-          <figure class="media-left">
-            <p class="image">
-              <img src="/images/illustrations/icons/doc-sync.svg">
-            </p>
-          </figure>
+
           <div class="media-content mt-50">
             <div class="content">
               <p>
@@ -327,11 +326,7 @@
           </div>
         </article>
         <article class="media icon-box">
-          <figure class="media-left">
-            <p class="image">
-              <img src="/images/illustrations/icons/mobile-feed.svg">
-            </p>
-          </figure>
+
           <div class="media-content mt-50">
             <div class="content">
               <p>
@@ -344,91 +339,9 @@
         </article>
       </div>
     </div>
-  </div>
+
 </section>
-    
 
-    
-    
-<section class="section section-feature-grey is-medium">
-  <div class="container">
-    <div class="columns">
-      <div class="column is-10 is-offset-1">
-        <div class="has-text-centered">
-          <img class="pushed-image" src="/images/illustrations/mockups/app-mockup.png">
-        </div>
-      </div>
-    </div>
-
-    <div class="title-wrapper has-text-centered">
-      <h2 class="title is-2">One platform</h2>
-      <h3 class="subtitle is-5 is-muted">To rule them all</h3>
-    </div>
-
-    <p class="has-text-centered mt-20">
-      <a class="button cta is-large rounded secondary-btn raised" href="#">
-        Get started
-      </a>
-    </p>
-  </div>
-</section>
-    
-
-    
-    
-<section class="section is-medium section-secondary">
-  <div class="container">
-
-    <div class="title-wrapper has-text-centered">
-      <h2 class="title is-2 light-text is-spaced">Our Clients love us!</h2>
-      <h3 class="subtitle is-5 light-text">Lorem ipsum sit dolor amet is a dummy text used by typography industry</h3>
-    </div>
-
-    <div class="content-wrapper">
-      <div class="columns is-vcentered">
-        <div class="column is-4">
-          <figure class="testimonial">
-            <blockquote>
-              Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-            </blockquote>
-            <div class="author">
-              <img src="/images/illustrations/faces/1.png" alt=""/>
-              <h5>Irma Walters</h5>
-              <span>Accountant</span>
-            </div>
-          </figure>
-        </div>
-        <div class="column is-4">
-          <figure class="testimonial">
-            <blockquote>
-              Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-            </blockquote>
-            <div class="author">
-              <img src="/images/illustrations/faces/2.png" alt=""/>
-              <h5>John Bradley</h5>
-              <span>Financial Analyst</span>
-            </div>
-          </figure>
-        </div>
-        <div class="column is-4">
-          <figure class="testimonial">
-            <blockquote>
-              Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-            </blockquote>
-            <div class="author">
-              <img src="/images/illustrations/faces/3.png" alt=""/>
-              <h5>Gary Blackman</h5>
-              <span>HR Manager</span>
-            </div>
-          </figure>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-    
-
-    
     <section class="section section-light-grey is-medium">
   <div class="container">
     <div class="title-wrapper has-text-centered">
@@ -461,9 +374,6 @@
     </div>
   </div>
 </section>
-    
-
-    
     
 <footer class="footer footer-dark">
   <div class="container">
@@ -586,181 +496,28 @@
   </div>
 </footer>
 
-    
+
 
     
     <div id="backtotop"><a href="#"></a></div>
 
-    
+
     
 <div class="sidebar">
   <div class="sidebar-header">
-    <img src="/images/logos/symbol.svg">
+    <img src="/images/logos/%25!s%28%3cnil%3e%29.svg">
     <a class="sidebar-close" href="javascript:void(0);">
       <i data-feather="x"></i>
     </a>
   </div>
   <div class="inner">
     <ul class="sidebar-menu">
-
       
-      <script>console.log("cornets")</script>
-      <li class="have-children">
-        <a href="#">
-          <span class=""></span>
-          cornets
-        </a>
-        <ul>
-          
-            <script>console.log("/instruments/balllltt")</script>
-          <li>
-            <a href="/instruments/balllltt/">
-              balllltt
-            </a>
-          </li>
-        </ul>
-      </li>
-      <script>console.log("misc")</script>
-      <li class="have-children">
-        <a href="#">
-          <span class=""></span>
-          misc
-        </a>
-        <ul>
-          
-            <script>console.log("/instruments/miscFun")</script>
-          <li>
-            <a href="/instruments/miscfun/">
-              miscFun
-            </a>
-          </li>
-        </ul>
-      </li>
-      <script>console.log("mouthpieces")</script>
-      <li class="have-children">
-        <a href="#">
-          <span class=""></span>
-          mouthpieces
-        </a>
-        <ul>
-          
-            <script>console.log("/instruments/mouthpiece")</script>
-          <li>
-            <a href="/instruments/mouthpiece/">
-              mouthpiece
-            </a>
-          </li>
-        </ul>
-      </li>
-      <script>console.log("trumpets")</script>
-      <li class="have-children">
-        <a href="#">
-          <span class=""></span>
-          trumpets
-        </a>
-        <ul>
-          
-            <script>console.log("/instruments/trumTemp")</script>
-          <li>
-            <a href="/instruments/trumtemp/">
-              trumTemp
-            </a>
-          </li>
-        </ul>
-      </li>
-
     </ul>
   </div>
 </div>
 
-    
 
-
-
-    
-    <div id="backtotop"><a href="#"></a></div>
-
-    
-    
-<div class="sidebar">
-  <div class="sidebar-header">
-    <img src="/images/logos/symbol.svg">
-    <a class="sidebar-close" href="javascript:void(0);">
-      <i data-feather="x"></i>
-    </a>
-  </div>
-  <div class="inner">
-    <ul class="sidebar-menu">
-
-      
-      <script>console.log("cornets")</script>
-      <li class="have-children">
-        <a href="#">
-          <span class=""></span>
-          cornets
-        </a>
-        <ul>
-          
-            <script>console.log("/instruments/balllltt")</script>
-          <li>
-            <a href="/instruments/balllltt/">
-              balllltt
-            </a>
-          </li>
-        </ul>
-      </li>
-      <script>console.log("misc")</script>
-      <li class="have-children">
-        <a href="#">
-          <span class=""></span>
-          misc
-        </a>
-        <ul>
-          
-            <script>console.log("/instruments/miscFun")</script>
-          <li>
-            <a href="/instruments/miscfun/">
-              miscFun
-            </a>
-          </li>
-        </ul>
-      </li>
-      <script>console.log("mouthpieces")</script>
-      <li class="have-children">
-        <a href="#">
-          <span class=""></span>
-          mouthpieces
-        </a>
-        <ul>
-          
-            <script>console.log("/instruments/mouthpiece")</script>
-          <li>
-            <a href="/instruments/mouthpiece/">
-              mouthpiece
-            </a>
-          </li>
-        </ul>
-      </li>
-      <script>console.log("trumpets")</script>
-      <li class="have-children">
-        <a href="#">
-          <span class=""></span>
-          trumpets
-        </a>
-        <ul>
-          
-            <script>console.log("/instruments/trumTemp")</script>
-          <li>
-            <a href="/instruments/trumtemp/">
-              trumTemp
-            </a>
-          </li>
-        </ul>
-      </li>
-
-    </ul>
-  </div>
-</div>
 
     
 
@@ -769,5 +526,44 @@
 <script src="/js/fresh.js"></script>
 <script src="/js/jquery.panelslider.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js">></script>
+        <script type="text/javascript">
+        var $carousel = $('.carousel').flickity();
+
+        var $carouselNav = $('.carousel-nav');
+        var $carouselNavCells = $carouselNav.find('.carousel-cell');
+
+        $carouselNav.on( 'click', '.carousel-cell', function( event ) {
+          var index = $( event.currentTarget ).index()-1;
+          $carousel.flickity( 'select', index );
+        });
+
+        var flkty = $carousel.data('flickity');
+        var navTop  = $carouselNav.position().top;
+        var navCellHeight = $carouselNavCells.height();
+        var navHeight = $carouselNav.height();
+
+        $carousel.on( 'select.flickity', function() {
+          
+          $carouselNav.find('.is-nav-selected').removeClass('is-nav-selected');
+          var $selected = $carouselNavCells.eq( flkty.selectedIndex )
+            .addClass('is-nav-selected');
+          
+          var scrollY = $selected.position().top +
+            $carouselNav.scrollTop() - ( navHeight + navCellHeight ) / 2;
+          $carouselNav.animate({
+            scrollTop: scrollY
+          });
+        });
+
+        </script>
+
+
+
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
   </body>
 </html>

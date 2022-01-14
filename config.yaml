@@ -4,21 +4,21 @@ title: Hugo Fresh Theme
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
+uglyurls: false
+
+permalinks:
+  instruments: instruments/:slug/
 
 
 taxonomies:
-  category: instruments
-  types: types
+  series: series
   tag: tags
-  terms:
-    - Trumpets
-    - Cornets
-    - Mouthpieces
-  tags:
-    - vintage
-    - modern
-    - custom
-    - engraved
+  name: names
+  instrument: instruments
+
+
+
+
 
 
 
