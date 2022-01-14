@@ -12,6 +12,3 @@ fields:
   type: image_gallery
   config: {}
   label: Images
-pages:
-- content/instruments/Trumpets/Custom/custom.md
-- content/instruments/Trumpets/Students/students.md
