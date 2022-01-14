@@ -131,7 +131,7 @@ params:
     socialmediatitle: Follow Me
     socialmedia:
     - link: https://www.linkedin.com/in/paul-ayick-7a98599/
-      icon: linked-in
+      icon: linkedin
     - link: https://facebook.com/Paul-Ayick-Music-181953292011841/
       icon: facebook
     bulmalogo: false
