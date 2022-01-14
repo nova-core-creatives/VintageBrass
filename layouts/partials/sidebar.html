@@ -18,12 +18,15 @@
         </a>
         <ul>
           <script type="text/javascript"></script>
-            {{ $fileDir := (printf "/public/instruments/%s"  .path ) }}
-            {{ range readDir $fileDir | relURL}}
-            {{ if ne .Name  "index.html" }}
-            {{ if ne .Name "index.xml" }}
+            {{ $filePath := (printf "/content/instruments/%s" .path )}}
+
+
+            {{ range readDir $filePath }}
+            {{ if ne .Name  "index.html"}}
+            {{ if ne .Name  "index.xml"}}
+            {{ $file := strings.TrimPrefix "/content/" $filePath  }}
             <li>
-            <a href="{{ $fileDir }}{{ .Name | relURL }}">
+            <a href="{{ $file }}{{ .Name | relURL }}">
               {{ humanize .Name }}
             </a>
           </li>
