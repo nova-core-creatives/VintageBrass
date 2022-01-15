@@ -141,13 +141,7 @@ params:
       column1:
         title: Product
         links:
-        - text: Discover features
-          link: "/"
         - text: Why choose our product?
-          link: "/"
-        - text: Compare features
-          link: "/"
-        - text: Our roadmap
           link: "/"
         - text: AGB
           link: "/agb"
