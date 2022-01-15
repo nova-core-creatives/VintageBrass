@@ -141,10 +141,10 @@ params:
       column1:
         title: Product
         links:
+        - text: Learn More
+          link: ''
         - text: Why choose our product?
           link: "/"
-        - text: AGB
-          link: "/agb"
       column2:
         title: Contact
         links:
