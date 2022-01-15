@@ -38,10 +38,6 @@ params:
     - boston_pops.png
   navbar:
   - title: Contact
-    url: "#contact"
-  - title: Pricing
-    url: "/"
-  - title: Contact
     url: "/contact"
     button: true
   sidebar:
