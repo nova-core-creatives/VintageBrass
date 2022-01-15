@@ -7,6 +7,7 @@ sections:
 - type: document
   path: config.yaml
   label: HomePage
+  match: "**/*"
 - type: directory
   path: content/instruments
   label: Intruments
