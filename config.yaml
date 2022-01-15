@@ -100,8 +100,8 @@ params:
         Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
   section3:
-    title: One platform
-    subtitle: To rule them all
+    title: 'One Stop '
+    subtitle: for Quality Vintage Wind Instruments
     image: illustrations/mockups/app-mockup.png
     buttonText: Get started
     buttonLink: "#"
