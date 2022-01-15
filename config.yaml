@@ -34,7 +34,8 @@ params:
     buttonlink: "#"
     image: logos/hero.svg
     clientlogos:
-    - "/uploads/boston_pops.png"
+    - uploads/chicago_orchesta.png
+    - uploads/boston_pops.png
   navbar:
   - title: Contact
     url: "#contact"
