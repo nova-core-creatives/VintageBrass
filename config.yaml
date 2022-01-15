@@ -157,5 +157,5 @@ params:
         links:
         - text: Latest news
           link: "/blog/first"
-        - text: Tech articles
+        - text: 'Terms and Conditions '
           link: "/blog/second"
