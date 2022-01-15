@@ -148,6 +148,8 @@ params:
       column2:
         title: Contact
         links:
+        - text: Marketing
+          link: ''
         - text: Lessons
           link: "/"
         - text: Purchase
