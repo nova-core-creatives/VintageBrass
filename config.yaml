@@ -1,0 +1,172 @@
+---
+baseURL: https://paulayick.netlify.app/
+languageCode: en-us
+title: Hugo Fresh Theme
+theme: hugo-fresh
+googleAnalytics:
+uglyurls: false
+permalinks:
+  instruments: instruments/:slug/
+taxonomies:
+  series: series
+  tag: tags
+  name: names
+  instrument: instruments
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  openGraph: true
+  description:
+  navbarlogo:
+    image: logos/name.svg
+    link: "/"
+  font:
+    name: Lexand Peta
+    sizes:
+    - 400
+    - 600
+  hero:
+    title: Vintage Brass.
+    subtitle: Trumpets, Cornets, Brass, and Other Winds
+    buttontext: Learn More
+    buttonlink: "#"
+    image: logos/hero.svg
+    clientlogos:
+    - "chicago_orchesta.png"
+    - "boston_pops.png"
+  navbar:
+  - title: Contact
+    url: "#contact"
+  - title: Pricing
+    url: "/"
+  - title: Contact
+    url: "/contact"
+    button: true
+  sidebar:
+    enable: true
+    logo: symbol
+    sections:
+    - title: Trumpets
+      icon: user
+      path: trumpets
+    - title: Cornets
+      icon: envelope
+      path: cornets
+    - title: Mouthpieces
+      icon: image
+      path: mouthpieces
+    - title: Misc
+      icon: cog
+      path: misc
+  section1:
+    enable: false
+    title: Great power comes
+    subtitle: with great responsibility
+    tiles:
+    - title: App builder
+      icon: mouse-globe
+      text: This is some explanatory text that is on two rows
+      url: "/"
+      buttonText: Free trial
+    - title: Cloud integration
+      icon: laptop-cloud
+      text: This is some explanatory text that is on two rows
+      url: "/"
+      buttonText: Get started
+    - title: Add-ons & plugins
+      icon: plug-cloud
+      text: This is some explanatory text that is on two rows
+      url: "/"
+      buttonText: Get started
+  section2:
+    title: You're here because you want the best
+    subtitle: And we know it
+    features:
+    - title: Powerful and unified interface
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare
+        magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem.
+        Etiam finibus odio quis feugiat facilisis.
+      icon: laptop-globe
+    - title: Cross-device synchronisation
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare
+        magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem.
+        Etiam finibus odio quis feugiat facilisis.
+      icon: doc-sync
+    - title: Nomad system
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare
+        magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem.
+        Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
+  section3:
+    title: One platform
+    subtitle: To rule them all
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Get started
+    buttonLink: "#"
+  section4:
+    title: Our Clients love us!
+    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    clients:
+    - name: Irma Walters
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim
+        appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret,
+        has quando suavitate at.
+      job: Accountant
+      img: "1"
+    - name: John Bradley
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim
+        appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret,
+        has quando suavitate at.
+      job: Financial Analyst
+      img: "2"
+    - name: Gary Blackman
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim
+        appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret,
+        has quando suavitate at.
+      job: HR Manager
+      img: "3"
+  section5: true
+  footer:
+    logo: Vintage.png
+    socialmediatitle: Follow Me
+    socialmedia:
+    - link: https://www.linkedin.com/in/paul-ayick-7a98599/
+      icon: linkedin
+    - link: https://facebook.com/Paul-Ayick-Music-181953292011841/
+      icon: facebook
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: Product
+        links:
+        - text: Discover features
+          link: "/"
+        - text: Why choose our product?
+          link: "/"
+        - text: Compare features
+          link: "/"
+        - text: Our roadmap
+          link: "/"
+        - text: AGB
+          link: "/agb"
+      column2:
+        title: Docs
+        links:
+        - text: Get started
+          link: "/"
+        - text: User guides
+          link: "/"
+        - text: Admin guide
+          link: "/"
+        - text: Developers
+          link: "/"
+      column3:
+        title: Blog
+        links:
+        - text: Latest news
+          link: "/blog/first"
+        - text: Tech articles
+          link: "/blog/second"
+---
