@@ -155,7 +155,7 @@ params:
       column3:
         title: Terms
         links:
-        - text: Latest news
+        - text: Terms and Conditions
           link: "/blog/first"
         - text: 'Terms and Conditions '
           link: "/blog/second"
