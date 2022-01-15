@@ -3,7 +3,7 @@ baseURL: https://paulayick.netlify.app/
 languageCode: en-us
 title: Hugo Fresh Theme
 theme: hugo-fresh
-googleAnalytics:
+googleAnalytics: 
 uglyurls: false
 permalinks:
   instruments: instruments/:slug/
@@ -18,7 +18,7 @@ markup:
       unsafe: true
 params:
   openGraph: true
-  description:
+  description: 
   navbarlogo:
     image: logos/name.svg
     link: "/"
@@ -34,8 +34,8 @@ params:
     buttonlink: "#"
     image: logos/hero.svg
     clientlogos:
-    - "chicago_orchesta.png"
-    - "boston_pops.png"
+    - chicago_orchesta.png
+    - boston_pops.png
   navbar:
   - title: Contact
     url: "#contact"
@@ -100,8 +100,8 @@ params:
         Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
   section3:
-    title: One platform
-    subtitle: To rule them all
+    title: One Place
+    subtitle: for Quality Vintage Wind Instruments
     image: illustrations/mockups/app-mockup.png
     buttonText: Get started
     buttonLink: "#"
@@ -169,4 +169,3 @@ params:
           link: "/blog/first"
         - text: Tech articles
           link: "/blog/second"
----
