@@ -34,6 +34,7 @@ params:
     buttonlink: "#"
     image: logos/hero.svg
     clientlogos:
+    - "/uploads/boston_pops_orchestra_logo-svg.png"
     - "/uploads/chicago-symphony-orchestra-client-website-logo.png"
   navbar:
   - title: Contact
