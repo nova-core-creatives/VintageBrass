@@ -29,3 +29,5 @@ fields:
   label: instruments
   hidden: true
   default: cornets
+pages:
+- content/instruments/Cornets/con-querer-83352.md
