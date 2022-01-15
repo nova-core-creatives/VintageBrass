@@ -84,7 +84,7 @@ params:
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare
         magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem.
         Etiam finibus odio quis feugiat facilisis.
-      icon: globe
+      icon: laptop-globe
     - title: Cross-device synchronisation
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare
         magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem.
