@@ -153,7 +153,7 @@ params:
         - text: Developers
           link: "/"
       column3:
-        title: Blog
+        title: Terms
         links:
         - text: Latest news
           link: "/blog/first"
