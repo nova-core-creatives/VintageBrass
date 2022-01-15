@@ -29,3 +29,5 @@ fields:
   label: instruments
   hidden: true
   default: misc
+pages:
+- content/instruments/Misc/besson-flghrn-72352.md
