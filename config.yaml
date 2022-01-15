@@ -157,5 +157,5 @@ params:
         links:
         - text: Terms and Conditions
           link: "/blog/first"
-        - text: 'Terms and Conditions '
+        - text: Privacy Policy
           link: "/blog/second"
