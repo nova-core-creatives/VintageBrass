@@ -39,7 +39,7 @@
               {{ with $images }}
               {{range first 1 . }}
               <div class = "media-left">
-              <img style = " object-fit: fill; width: 100%; height: 200px;" src = "{{  .  | relURL }}">
+              <img style = " object-fit: contain; width: 100%; height: 200px;" src = "{{  .  | relURL }}">
             </div>
               {{ end }}
               {{ end }}
@@ -69,7 +69,7 @@
   </div>
 
 
-  
+
 
 
 
