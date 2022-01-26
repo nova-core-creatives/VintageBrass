@@ -6194,7 +6194,7 @@ Navbar
   .navbar.is-fresh .navbar-end {
     align-items: center; }
   .navbar.is-fresh .navbar-item {
-    color: #999; }
+    color: #344258; }
     .navbar.is-fresh .navbar-item.is-secondary:hover {
       color: #FF914D !important; }
     .navbar.is-fresh .navbar-item.has-dropdown {
@@ -6347,7 +6347,7 @@ Section Styles
   font-family: 'Open Sans', sans-serif; }
 
 .section .subtitle.is-muted {
-  color: #999; }
+  color: #344258; }
 
 .title-wrapper {
   max-width: 500px;
@@ -6355,7 +6355,7 @@ Section Styles
   .title-wrapper .title, .title-wrapper .subtitle {
     font-family: 'Open Sans', sans-serif; }
   .title-wrapper .subtitle.is-muted {
-    color: #999; }
+    color: #344258; }
 
 .divider {
   height: 3px;
@@ -6395,7 +6395,7 @@ Hero styles
   .hero-body .title.is-bold {
     font-weight: 700; }
   .hero-body .subtitle.is-muted {
-    color: #999; }
+    color: #344258; }
 
 .hero-foot img.partner-logo {
   height: 70px; }
@@ -6537,7 +6537,7 @@ Cards and Card content styles
   .feature-card .card-text {
     padding: 0 40px; }
     .feature-card .card-text p {
-      color: #999; }
+      color: #344258; }
   .feature-card .card-action {
     margin-top: 10px; }
   .feature-card.is-bordered {
