@@ -1,35 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hugo Fresh Theme</title>
+    <title>Tags on Paul Ayick</title>
     <link>https://paulayick.netlify.app/tags/</link>
-    <description>Recent content in Tags on Hugo Fresh Theme</description>
+    <description>Recent content in Tags on Paul Ayick</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://paulayick.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cool</title>
-      <link>https://paulayick.netlify.app/tags/cool/</link>
+      <title>1930&#39;s</title>
+      <link>https://paulayick.netlify.app/tags/1930s/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://paulayick.netlify.app/tags/cool/</guid>
+      <guid>https://paulayick.netlify.app/tags/1930s/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hip</title>
-      <link>https://paulayick.netlify.app/tags/hip/</link>
+      <title>Relacquered</title>
+      <link>https://paulayick.netlify.app/tags/relacquered/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://paulayick.netlify.app/tags/hip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>yes</title>
-      <link>https://paulayick.netlify.app/tags/yes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://paulayick.netlify.app/tags/yes/</guid>
+      <guid>https://paulayick.netlify.app/tags/relacquered/</guid>
       <description></description>
     </item>
     

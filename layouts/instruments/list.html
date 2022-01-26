@@ -1,0 +1,51 @@
+<html>
+  <head>
+    {{ partial "meta.html" . }}
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    {{ partial "css.html" . }}
+  </head>
+  <body>
+
+    <!-- Preloader -->
+
+
+  {{ block "main" . }}
+  
+    <div class="container">
+      <div class="columns">
+        <div class="column is-centered-tablet-portrait">
+          <h1 class="title section-title">{{ .Title }}</h1>
+          <h5 class="subtitle is-5 is-muted">{{ .Params.Subtitle }}</h5>
+          <div class="divider"></div>
+        </div>
+      </div>
+
+      {{ range .Pages }}
+
+      <script>console.log({{ .Page }})</script>
+      <div >
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <div >
+              cool
+          </div>
+      </div>
+      {{ end }}
+    </div>
+
+
+
+
+     {{ partial "footer.html" . }}
+
+
+     <!-- Back To Top Button -->
+     <div id="backtotop"><a href="#"></a></div>
+
+
+     {{ partial "single/sidebar.html" . }}
+
+
+     {{end}}
+
+</body>
+</html>
