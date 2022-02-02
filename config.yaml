@@ -118,10 +118,10 @@ params:
     title: My Services
     subtitle: I buy and sell vintage brass, consult, appraise, and play trumpet professionally
     clients:
-    - name: Vintage Brass
+    - name: Brass
       quote: I strive for accuracy in the descriptions of each horn I sell, and all horns are shipped securely packaged, fully insured and sent promptly.
       img: "1"
-    - name: Consultation
+    - name: Consult
       quote: If you are someone who just discovered "Uncle Harry's" old horn in the attic, well then, you are just the kind of person I would like to hear from!
       img: "2"
     - name: Appraise
