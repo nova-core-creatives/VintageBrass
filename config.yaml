@@ -115,26 +115,17 @@ params:
     buttonText: Get started
     buttonLink: "#"
   section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    title: My Services
+    subtitle: I buy and sell vintage brass, consult, appraise, and play trumpet professionally
     clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim
-        appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret,
-        has quando suavitate at.
-      job: Accountant
+    - name: Vintage Brass
+      quote: I strive for accuracy in the descriptions of each horn I sell, and all horns are shipped securely packaged, fully insured and sent promptly.
       img: "1"
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim
-        appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret,
-        has quando suavitate at.
-      job: Financial Analyst
+    - name: Consultation
+      quote: If you are someone who just discovered "Uncle Harry's" old horn in the attic, well then, you are just the kind of person I would like to hear from!
       img: "2"
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim
-        appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret,
-        has quando suavitate at.
-      job: HR Manager
+    - name: Appraise
+      quote: I work entirely from my home in South Florida where I also work as a trumpet player. I enjoy hearing from anyone with a question, comment, or just to say hello,  I always have time to "talk trumpet"
       img: "3"
   section5: true
   footer:
