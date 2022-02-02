@@ -32,7 +32,7 @@ params:
     subtitle: Trumpets, Cornets, Brass, and Other Winds
     buttontext: Learn More
     buttonlink: "#"
-    image: logos/hero.svg
+    image: logos/sabotage.jpeg
     clientlogos:
     - chicago_orchesta.png
     - boston_pops.png
