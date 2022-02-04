@@ -44,7 +44,7 @@ params:
   - title: Mouthpieces
     url: "/pages/mouthpieces"
   - title: Misc
-    url: "/pages/miscellaneous"
+    url: "/pages/misc"
   - title: Custom
     url: "/pages/custom"
   - title: Sold
