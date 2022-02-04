@@ -143,5 +143,5 @@ params:
         links:
         - text: My Favorite Sites
           link: "/links"
-        - text: Privacy Policy
-          link: "/blog/second"
+        - text: Contact
+          link: "/contact"
