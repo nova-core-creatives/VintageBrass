@@ -9,7 +9,12 @@
     <div class="content-wrapper">
       <div class="columns">
         <div class="column is-6 is-offset-3">
-          <form name="contact" netlify>
+          <form
+          name="contact"
+          method="POST"
+          data-netlify-recaptcha="true"
+          data-netlify="true"
+          netlify>
             <div class="columns is-multiline">
               <div class="column is-6">
                 <input name = "name" class="input is-medium" type="text" placeholder="Enter your name">
@@ -20,6 +25,7 @@
               <div class="column is-12">
                 <textarea name="message" class="textarea" rows="10" placeholder="Write someting..."></textarea>
               </div>
+               <div data-netlify-recaptcha="true"></div>
               <div class="form-footer has-text-centered mt-10">
                 <button type= "submit" class="button cta is-large primary-btn raised is-clear">Send Message</button>
               </div>

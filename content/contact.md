@@ -4,8 +4,6 @@
 title = "Contact"
 
 
-
-
 +++
 <h2>
 I currently am offering some really nice horns check them out
