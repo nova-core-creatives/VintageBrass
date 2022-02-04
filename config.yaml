@@ -38,17 +38,17 @@ params:
     - boston_pops.png
   navbar:
   - title: Trumpets
-    url: "/instruments/trumpets"
+    url: "/pages/trumpets"
   - title: Cornets
-    url: "/instruments/cornets"
+    url: "/pages/cornets"
   - title: Mouthpieces
-    url: "/instruments/mouthpieces"
+    url: "/pages/mouthpieces"
   - title: Misc
-    url: "/instruments/miscellaneous"
+    url: "/pages/miscellaneous"
   - title: Custom
-    url: "/instruments/custom"
+    url: "/pages/custom"
   - title: Sold
-    url: "/instruments/sold"
+    url: "/pages/sold"
   - title: Contact
     url: "/contact"
     button: true
@@ -112,8 +112,8 @@ params:
     title: One Place
     subtitle: for Quality Vintage Wind Instruments
     image: me-at-trpt-summit.jpg
-    buttonText: Get started
-    buttonLink: "#"
+    buttonText: Reach Out
+    buttonLink: "/contact"
   section4:
     title: My Services
     subtitle: I buy and sell vintage brass, consult, appraise, and play trumpet professionally
@@ -138,26 +138,10 @@ params:
       icon: facebook
     bulmalogo: false
     quicklinks:
-      column1:
-        title: Product
-        links:
-        - text: Learn More
-          link: ''
-        - text: Why choose our product?
-          link: "/"
-      column2:
-        title: Contact
-        links:
-        - text: Marketing
-          link: ''
-        - text: Lessons
-          link: "/"
-        - text: Purchase
-          link: "/"
       column3:
         title: Terms
         links:
-        - text: Terms and Conditions
-          link: "/blog/first"
+        - text: My Favorite Sites
+          link: "/links"
         - text: Privacy Policy
           link: "/blog/second"

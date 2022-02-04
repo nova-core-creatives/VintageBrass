@@ -14,7 +14,7 @@
     {{ block "main" . }}
 
     {{ partial "single/single.html" . }}
-    {{ partial "section5.html" . }}
+
 
     {{ if .Params.include_footer }}
     {{ partial "footer.html" . }}
@@ -26,7 +26,7 @@
     {{ if .Params.sidebar }}
     {{ partial "single/sidebar.html" . }}
     {{ end }}
-
+    {{ partial "section5.html" . }}
     {{ end }}
 
     {{ partial "javascript.html" . }}
