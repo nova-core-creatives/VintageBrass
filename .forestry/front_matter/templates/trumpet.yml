@@ -29,6 +29,3 @@ fields:
   label: instruments
   hidden: true
   default: trumpets
-pages:
-- content/instruments/Trumpets/brevette-82694.md
-- content/instruments/Trumpets/conn-115790.md
