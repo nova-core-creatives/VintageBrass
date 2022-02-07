@@ -11,7 +11,7 @@ fields:
 - type: image_gallery
   name: images
   label: images
-- name: content
+- name: description
   type: textarea
   default: ''
   config:
@@ -19,7 +19,7 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-  label: content
+  label: Description
 - type: text
   name: instruments
   label: instruments
