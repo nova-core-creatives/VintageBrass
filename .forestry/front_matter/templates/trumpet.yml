@@ -29,3 +29,5 @@ fields:
   label: instruments
   hidden: true
   default: trumpets
+pages:
+- content/pages/trumpets/besson-brevete-75576.md
