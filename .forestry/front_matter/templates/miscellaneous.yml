@@ -29,3 +29,5 @@ fields:
   label: instruments
   hidden: true
   default: misc
+pages:
+- content/pages/misc/olds-special-tri-color-trombone.md
