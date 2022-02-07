@@ -1,6 +1,6 @@
 ---
 label: Custom
-hide_body: true
+hide_body: false
 fields:
 - name: title
   type: text
@@ -12,15 +12,6 @@ fields:
   config:
     required: false
   label: Subtitle
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Description
 - name: images
   type: image_gallery
   config: {}
