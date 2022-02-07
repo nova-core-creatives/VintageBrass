@@ -34,8 +34,7 @@ params:
     buttonlink: "#"
     image: logos/sabotage.jpeg
     clientlogos:
-    - chicago_orchesta.png
-    - boston_pops.png
+    - 
   navbar:
   - title: Trumpets
     url: "/pages/trumpets"
