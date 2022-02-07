@@ -8,26 +8,22 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
-- type: text
-  name: series
-  label: series
-- type: list
-  name: tags
-  label: tags
 - type: image_gallery
   name: images
   label: images
-- name: description
-  type: list
+- name: content
+  type: textarea
+  default: ''
   config:
-    use_select: false
-    min: 
-    max: 
-  label: Description
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: content
 - type: text
   name: instruments
   label: instruments
-  hidden: true
+  hidden: false
   default: trumpets
 pages:
 - content/pages/trumpets/bach-ny-1387.md
