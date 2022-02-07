@@ -33,8 +33,7 @@ params:
     buttontext: Learn More
     buttonlink: "#"
     image: logos/sabotage.jpeg
-    clientlogos:
-    -
+    #clientlogos:
   navbar:
   - title: Trumpets
     url: "/pages/trumpets"
