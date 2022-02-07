@@ -22,3 +22,5 @@ fields:
     required: false
   label: instruments
   default: custom
+pages:
+- content/pages/custom/custom-conn-41-68.md
