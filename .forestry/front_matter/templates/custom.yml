@@ -1,4 +1,33 @@
 ---
 label: Custom
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: sub-title
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Description
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
+- name: instruments
+  type: text
+  config:
+    required: false
+  label: instruments
+  default: custom
