@@ -1,6 +1,6 @@
 ---
 label: Trumpet
-hide_body: true
+hide_body: false
 fields:
 - type: text
   name: title
@@ -8,15 +8,6 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Content
 - type: image_gallery
   name: images
   label: images
