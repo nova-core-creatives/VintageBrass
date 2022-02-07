@@ -34,7 +34,7 @@
     {{ $images := .Params.images }}
      <script>console.log({{ $images }})</script>
      <div class="column is-centered-tablet-portrait">
-          <a  class = "menu-lable" href="{{ .absURL }}">{{ .Title }}</a>
+          <a  class = "menu-lable" href="{{ .Permalink }}">{{ .Title }}</a>
 
               {{ with $images }}
               {{range first 1 . }}

@@ -1,5 +1,5 @@
 ---
-baseURL: https://paulayick.netlify.app/
+baseURL: https://paulayickvintagebrass.com/
 languageCode: en-us
 title: Paul Ayick
 theme: hugo-fresh
@@ -34,7 +34,7 @@ params:
     buttonlink: "#"
     image: logos/sabotage.jpeg
     clientlogos:
-    - 
+    -
   navbar:
   - title: Trumpets
     url: "/pages/trumpets"
