@@ -8,26 +8,22 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
-- type: text
-  name: series
-  label: series
-- type: list
-  name: tags
-  label: tags
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Description
 - type: image_gallery
   name: images
   label: images
-- name: description
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: Description
 - type: text
   name: instruments
   label: instruments
-  hidden: true
+  hidden: false
   default: misc
 pages:
 - content/pages/misc/olds-special-tri-color-trombone.md
