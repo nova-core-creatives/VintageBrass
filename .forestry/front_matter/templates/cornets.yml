@@ -29,3 +29,5 @@ fields:
   label: instruments
   hidden: true
   default: cornets
+pages:
+- content/pages/cornets/conn-director-coprion.md
