@@ -24,9 +24,11 @@
               <div class="column is-6">
                 <input name="email" class="input is-medium" type="email" placeholder="Enter your email address">
               </div>
-              <div style="display:none;">
-                <input name="bot-field" class="input is-medium" type="text" placeholder="Don’t fill if you’re human:">
-              </div>
+              <p style="display:none;">
+                <label>
+                  Don’t fill this out if you’re human: <input name="bot-field" />
+                </label>
+              </p>
               <div class="column is-12">
                 <textarea name="message" class="textarea" rows="10" placeholder="Write someting..."></textarea>
                 <div data-netlify-recaptcha="true"></div>
