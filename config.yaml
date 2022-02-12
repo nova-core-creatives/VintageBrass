@@ -3,7 +3,7 @@ baseURL: https://paulayickvintagebrass.com/
 languageCode: en-us
 title: Paul Ayick
 theme: hugo-fresh
-googleAnalytics:
+googleAnalytics: 
 uglyurls: false
 permalinks:
   instruments: instruments/:slug/
@@ -18,7 +18,7 @@ markup:
       unsafe: true
 params:
   openGraph: true
-  description:
+  description: 
   navbarlogo:
     image: logos/name.svg
     link: "/"
@@ -33,7 +33,6 @@ params:
     buttontext: Learn More
     buttonlink: "#"
     image: logos/sabotage.jpeg
-    #clientlogos:
   navbar:
   - title: Trumpets
     url: "/pages/trumpets"
@@ -117,13 +116,17 @@ params:
     subtitle: I buy and sell vintage brass, consult, appraise, and play trumpet professionally
     clients:
     - name: Brass
-      quote: I strive for accuracy in the descriptions of each horn I sell, and all horns are shipped securely packaged, fully insured and sent promptly.
+      quote: I strive for accuracy in the descriptions of each horn I sell, and all
+        horns are shipped securely packaged, fully insured and sent promptly.
       img: "1"
     - name: Consult
-      quote: If you are someone who just discovered "Uncle Harry's" old horn in the attic, well then, you are just the kind of person I would like to hear from!
+      quote: If you are someone who just discovered "Uncle Harry's" old horn in the
+        attic, well then, you are just the kind of person I would like to hear from!
       img: "2"
     - name: Appraise
-      quote: I work entirely from my home in South Florida where I also work as a trumpet player. I enjoy hearing from anyone with a question, comment, or just to say hello,  I always have time to "talk trumpet"
+      quote: I work entirely from my home in South Florida where I also work as a
+        trumpet player. I enjoy hearing from anyone with a question, comment, or just
+        to say hello,  I always have time to "talk trumpet"
       img: "3"
   section5: true
   footer:
@@ -137,7 +140,7 @@ params:
     bulmalogo: false
     quicklinks:
       column3:
-        title: Terms
+        title: Quick Links
         links:
         - text: My Favorite Sites
           link: "/links"

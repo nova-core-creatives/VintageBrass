@@ -1,0 +1,24 @@
+---
+label: Sold
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
+- name: instruments
+  type: text
+  config:
+    required: false
+  label: instruments
+  default: sold

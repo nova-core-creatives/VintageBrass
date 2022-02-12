@@ -1,6 +1,6 @@
 ---
 label: Trumpet
-hide_body: true
+hide_body: false
 fields:
 - type: text
   name: title
@@ -8,24 +8,35 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
-- type: text
-  name: series
-  label: series
-- type: list
-  name: tags
-  label: tags
 - type: image_gallery
   name: images
   label: images
-- name: description
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: Description
 - type: text
   name: instruments
   label: instruments
-  hidden: true
+  hidden: false
   default: trumpets
+pages:
+- content/pages/trumpets/bach-ny-1387.md
+- content/pages/trumpets/besson-brevete-75576.md
+- content/pages/trumpets/besson-brevete-82644.md
+- content/pages/trumpets/besson-brevete-87460.md
+- content/pages/trumpets/besson-fabrication-88306.md
+- content/pages/trumpets/conn-115123.md
+- content/pages/trumpets/conn-167xxx.md
+- content/pages/trumpets/conn-16b-rosebrook-trumpet-200089.md
+- content/pages/trumpets/conn-178677.md
+- content/pages/trumpets/conn-28b-gold-227163.md
+- content/pages/trumpets/conn-2b-gold-plated-242621.md
+- content/pages/trumpets/conn-4b-symphony-182875.md
+- content/pages/trumpets/conn-56b-new-era.md
+- content/pages/trumpets/conn-58b-gold-270310.md
+- content/pages/trumpets/conn-s-bore-98502.md
+- content/pages/trumpets/courtois-10041.md
+- content/pages/trumpets/courtois-l-bore-balanced-6329.md
+- content/pages/trumpets/getzen-c-lb-sk4614.md
+- content/pages/trumpets/olds-llm-1498.md
+- content/pages/trumpets/olds-super-recording-26052.md
+- content/pages/trumpets/reynolds-contemporary-32773.md
+- content/pages/trumpets/reynolds-contemporary-42408.md
+- content/pages/trumpets/york-custom-134291.md
