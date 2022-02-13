@@ -1,5 +1,6 @@
 [[plugins]]
 package = "netlify-plugin-snyk"
+[[plugins]]
 package = "netlify-plugin-submit-sitemap"
 	[plugins.inputs]
 
