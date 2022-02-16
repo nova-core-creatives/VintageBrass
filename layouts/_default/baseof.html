@@ -23,4 +23,10 @@
 
     {{ partial "javascript.html" . }}
   </body>
+  <script>
+    function onSubmit(token) {
+      document.getElementById("contact").submit();
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
 </html>
