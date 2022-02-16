@@ -4,4 +4,4 @@ title = "Music"
 
 +++
 
-<script src='[https://embed.songtradr.com/v1/es](https://embed.songtradr.com/v1/es "https://embed.songtradr.com/v1/es")' data-key='IxMqzsSGLhsELtUrIzSHroGbhzBiDkHv' data-size='md'></script>
+<script src='https://embed.songtradr.com/v1/es' data-key='MlNSehlFFnfjohBDvpWvWcKrTJHzHdpX' data-size='sm'></script>
