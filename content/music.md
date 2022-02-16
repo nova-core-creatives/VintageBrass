@@ -9,7 +9,7 @@ title = "Music"
 <script src='https://embed.songtradr.com/v1/es' data-key='mJCNXhVgyJtoPftdpykEvRyqsrLZLqyW' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='uLfGfOlexRsvCWmsVTJbeBFnkMmMmuWl' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='cANoVPCXhnVRGbViFjGAcpLCkDUrEuTw' data-size='sm'></script>
-<script src='https://embed.songtradr.com/v1/es' data-key='CwHePORjAFZRAQzcrBwXkwUgSkqDrSuA' data-size='md'></script>
+<script src='https://embed.songtradr.com/v1/es' data-key='CwHePORjAFZRAQzcrBwXkwUgSkqDrSuA' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='ULsCRrbcaMfnLGzqZQhazLHCkASIXWqi' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='XGKMdEwoncKSVKtyjTnxFIjWrMCQMWtw' data-size='sm'></script>
 <h2>Break Blues</h2>
