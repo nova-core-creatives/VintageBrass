@@ -142,6 +142,8 @@ params:
       column3:
         title: Quick Links
         links:
+        - text: My Music
+          link: "/music"
         - text: My Favorite Sites
           link: "/links"
         - text: Contact
