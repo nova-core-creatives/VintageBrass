@@ -317,7 +317,7 @@
           name="contact"
           method="POST"
           data-netlify-recaptcha="true"
-          netlify-honeypot="bot-field"
+          netlify-honeypot="subject"
           data-netlify="true"
           netlify>
 
@@ -328,12 +328,21 @@
               <div class="column is-6">
                 <input name="email" class="input is-medium" type="email" placeholder="Enter your email address">
               </div>
+              <p style="display:none;">
+                <label>
+                  Subject <input name="subject" class="input is-medium" type="text" >
+                </label>
+              </p>
               <div class="column is-12">
                 <textarea name="message" class="textarea" rows="10" placeholder="Write someting..."></textarea>
                 <div data-netlify-recaptcha="true"></div>
               </div>
               <div class="form-footer has-text-centered mt-10">
-                <button type= "submit" class="button cta is-large primary-btn raised is-clear">Send Message</button>
+                <button type= "submit" class="button cta is-large primary-btn raised is-clear"
+                    class="g-recaptcha"
+                    data-sitekey= process.env.reCAPTCHA_site_key
+                    data-callback='onSubmit'
+                    data-action='submit'>Send Message</button>
               </div>
             </div>
           </form>
@@ -358,7 +367,7 @@
         <div class="column">
           <div class="footer-column">
             <div class="footer-header">
-                <h3>Terms</h3>
+                <h3>Quick Links</h3>
             </div>
             <ul class="link-list">
               <li>
@@ -395,6 +404,12 @@
     </div>
   </div>
 </footer>
+<script>
+  function onSubmit(token) {
+    document.getElementById("demo-form").submit();
+  }
+</script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 
     
 
@@ -444,6 +459,50 @@
           </li>
         </ul>
       </li>
+      <script>console.log("custom")</script>
+      <li class="have-children">
+        <a href="#">
+          <span class="fa fa-check"></span>
+          Custom
+        </a>
+        <ul>
+          
+            <script>console.log("/instruments/Custom Conn 41-68")</script>
+          <li>
+            <a href="/pages/custom/custom-conn-41-68/">
+              Custom conn 41 68
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Custom Olds 43")</script>
+          <li>
+            <a href="/pages/custom/custom-olds-43/">
+              Custom olds 43
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Custom Olds C358X")</script>
+          <li>
+            <a href="/pages/custom/custom-olds-c358x/">
+              Custom olds c358 x
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Custom Olds C408X")</script>
+          <li>
+            <a href="/pages/custom/custom-olds-c408x/">
+              Custom olds c408 x
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Custom Olds R45X")</script>
+          <li>
+            <a href="/pages/custom/custom-olds-r45x/">
+              Custom olds r45 x
+            </a>
+          </li>
+        </ul>
+      </li>
       <script>console.log("misc")</script>
       <li class="have-children">
         <a href="#">
@@ -465,6 +524,20 @@
               Olds double horn
             </a>
           </li>
+          
+            <script>console.log("/instruments/Olds Special Tri-color Trombone")</script>
+          <li>
+            <a href="/pages/misc/olds-special-tri-color-trombone/">
+              Olds special tri color trombone
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Ruhlmann 7 Keyed Bugle")</script>
+          <li>
+            <a href="/pages/misc/ruhlmann-7-keyed-bugle/">
+              Ruhlmann 7 keyed bugle
+            </a>
+          </li>
         </ul>
       </li>
       <script>console.log("trumpets")</script>
@@ -475,6 +548,41 @@
         </a>
         <ul>
           
+            <script>console.log("/instruments/Bach NY #1387")</script>
+          <li>
+            <a href="/pages/trumpets/bach-ny-1387/">
+              Bach ny #1387
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Besson Brevete #75576")</script>
+          <li>
+            <a href="/pages/trumpets/besson-brevete-75576/">
+              Besson brevete #75576
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Besson Brevete #82644")</script>
+          <li>
+            <a href="/pages/trumpets/besson-brevete-82644/">
+              Besson brevete #82644
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Besson Brevete #87460")</script>
+          <li>
+            <a href="/pages/trumpets/besson-brevete-87460/">
+              Besson brevete #87460
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Besson Fabrication #88306")</script>
+          <li>
+            <a href="/pages/trumpets/besson-fabrication-88306/">
+              Besson fabrication #88306
+            </a>
+          </li>
+          
             <script>console.log("/instruments/Brevette 82694")</script>
           <li>
             <a href="/pages/trumpets/brevette-82694/">
@@ -482,10 +590,136 @@
             </a>
           </li>
           
+            <script>console.log("/instruments/Conn # 178677")</script>
+          <li>
+            <a href="/pages/trumpets/conn-178677/">
+              Conn # 178677
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn #115123")</script>
+          <li>
+            <a href="/pages/trumpets/conn-115123/">
+              Conn #115123
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn #167xxx")</script>
+          <li>
+            <a href="/pages/trumpets/conn-167xxx/">
+              Conn #167xxx
+            </a>
+          </li>
+          
             <script>console.log("/instruments/Conn 115790")</script>
           <li>
             <a href="/pages/trumpets/conn-115790/">
               Conn 115790
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn 16B Rosebrook Trumpet  #200089")</script>
+          <li>
+            <a href="/pages/trumpets/conn-16b-rosebrook-trumpet-200089/">
+              Conn 16 b rosebrook trumpet #200089
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn 28B Gold #227163")</script>
+          <li>
+            <a href="/pages/trumpets/conn-28b-gold-227163/">
+              Conn 28 b gold #227163
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/CONN 2B Gold plated #242621")</script>
+          <li>
+            <a href="/pages/trumpets/conn-2b-gold-plated-242621/">
+              Conn 2 b gold plated #242621
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn 4B Symphony  #182875")</script>
+          <li>
+            <a href="/pages/trumpets/conn-4b-symphony-182875/">
+              Conn 4 b symphony #182875
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn 56B New Era")</script>
+          <li>
+            <a href="/pages/trumpets/conn-56b-new-era/">
+              Conn 56 b new era
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn 58B Gold #270310")</script>
+          <li>
+            <a href="/pages/trumpets/conn-58b-gold-270310/">
+              Conn 58 b gold #270310
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn S-Bore #98502 ")</script>
+          <li>
+            <a href="/pages/trumpets/conn-s-bore-98502/">
+              Conn s bore #98502
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Courtois #10041")</script>
+          <li>
+            <a href="/pages/trumpets/courtois-10041/">
+              Courtois #10041
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Courtois L-bore Balanced #6329")</script>
+          <li>
+            <a href="/pages/trumpets/courtois-l-bore-balanced-6329/">
+              Courtois l bore balanced #6329
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Getzen C LB SK4614")</script>
+          <li>
+            <a href="/pages/trumpets/getzen-c-lb-sk4614/">
+              Getzen c lb sk4614
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Olds LLM #1498 ")</script>
+          <li>
+            <a href="/pages/trumpets/olds-llm-1498/">
+              Olds llm #1498
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Olds Super Recording #26052")</script>
+          <li>
+            <a href="/pages/trumpets/olds-super-recording-26052/">
+              Olds super recording #26052
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Reynolds Contemporary # 32773")</script>
+          <li>
+            <a href="/pages/trumpets/reynolds-contemporary-32773/">
+              Reynolds contemporary # 32773
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Reynolds Contemporary #42408")</script>
+          <li>
+            <a href="/pages/trumpets/reynolds-contemporary-42408/">
+              Reynolds contemporary #42408
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/York Custom #134291 ")</script>
+          <li>
+            <a href="/pages/trumpets/york-custom-134291/">
+              York custom #134291
             </a>
           </li>
         </ul>
@@ -545,6 +779,50 @@
           </li>
         </ul>
       </li>
+      <script>console.log("custom")</script>
+      <li class="have-children">
+        <a href="#">
+          <span class="fa fa-check"></span>
+          Custom
+        </a>
+        <ul>
+          
+            <script>console.log("/instruments/Custom Conn 41-68")</script>
+          <li>
+            <a href="/pages/custom/custom-conn-41-68/">
+              Custom conn 41 68
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Custom Olds 43")</script>
+          <li>
+            <a href="/pages/custom/custom-olds-43/">
+              Custom olds 43
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Custom Olds C358X")</script>
+          <li>
+            <a href="/pages/custom/custom-olds-c358x/">
+              Custom olds c358 x
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Custom Olds C408X")</script>
+          <li>
+            <a href="/pages/custom/custom-olds-c408x/">
+              Custom olds c408 x
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Custom Olds R45X")</script>
+          <li>
+            <a href="/pages/custom/custom-olds-r45x/">
+              Custom olds r45 x
+            </a>
+          </li>
+        </ul>
+      </li>
       <script>console.log("misc")</script>
       <li class="have-children">
         <a href="#">
@@ -566,6 +844,20 @@
               Olds double horn
             </a>
           </li>
+          
+            <script>console.log("/instruments/Olds Special Tri-color Trombone")</script>
+          <li>
+            <a href="/pages/misc/olds-special-tri-color-trombone/">
+              Olds special tri color trombone
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Ruhlmann 7 Keyed Bugle")</script>
+          <li>
+            <a href="/pages/misc/ruhlmann-7-keyed-bugle/">
+              Ruhlmann 7 keyed bugle
+            </a>
+          </li>
         </ul>
       </li>
       <script>console.log("trumpets")</script>
@@ -576,6 +868,41 @@
         </a>
         <ul>
           
+            <script>console.log("/instruments/Bach NY #1387")</script>
+          <li>
+            <a href="/pages/trumpets/bach-ny-1387/">
+              Bach ny #1387
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Besson Brevete #75576")</script>
+          <li>
+            <a href="/pages/trumpets/besson-brevete-75576/">
+              Besson brevete #75576
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Besson Brevete #82644")</script>
+          <li>
+            <a href="/pages/trumpets/besson-brevete-82644/">
+              Besson brevete #82644
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Besson Brevete #87460")</script>
+          <li>
+            <a href="/pages/trumpets/besson-brevete-87460/">
+              Besson brevete #87460
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Besson Fabrication #88306")</script>
+          <li>
+            <a href="/pages/trumpets/besson-fabrication-88306/">
+              Besson fabrication #88306
+            </a>
+          </li>
+          
             <script>console.log("/instruments/Brevette 82694")</script>
           <li>
             <a href="/pages/trumpets/brevette-82694/">
@@ -583,10 +910,136 @@
             </a>
           </li>
           
+            <script>console.log("/instruments/Conn # 178677")</script>
+          <li>
+            <a href="/pages/trumpets/conn-178677/">
+              Conn # 178677
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn #115123")</script>
+          <li>
+            <a href="/pages/trumpets/conn-115123/">
+              Conn #115123
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn #167xxx")</script>
+          <li>
+            <a href="/pages/trumpets/conn-167xxx/">
+              Conn #167xxx
+            </a>
+          </li>
+          
             <script>console.log("/instruments/Conn 115790")</script>
           <li>
             <a href="/pages/trumpets/conn-115790/">
               Conn 115790
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn 16B Rosebrook Trumpet  #200089")</script>
+          <li>
+            <a href="/pages/trumpets/conn-16b-rosebrook-trumpet-200089/">
+              Conn 16 b rosebrook trumpet #200089
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn 28B Gold #227163")</script>
+          <li>
+            <a href="/pages/trumpets/conn-28b-gold-227163/">
+              Conn 28 b gold #227163
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/CONN 2B Gold plated #242621")</script>
+          <li>
+            <a href="/pages/trumpets/conn-2b-gold-plated-242621/">
+              Conn 2 b gold plated #242621
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn 4B Symphony  #182875")</script>
+          <li>
+            <a href="/pages/trumpets/conn-4b-symphony-182875/">
+              Conn 4 b symphony #182875
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn 56B New Era")</script>
+          <li>
+            <a href="/pages/trumpets/conn-56b-new-era/">
+              Conn 56 b new era
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn 58B Gold #270310")</script>
+          <li>
+            <a href="/pages/trumpets/conn-58b-gold-270310/">
+              Conn 58 b gold #270310
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Conn S-Bore #98502 ")</script>
+          <li>
+            <a href="/pages/trumpets/conn-s-bore-98502/">
+              Conn s bore #98502
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Courtois #10041")</script>
+          <li>
+            <a href="/pages/trumpets/courtois-10041/">
+              Courtois #10041
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Courtois L-bore Balanced #6329")</script>
+          <li>
+            <a href="/pages/trumpets/courtois-l-bore-balanced-6329/">
+              Courtois l bore balanced #6329
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Getzen C LB SK4614")</script>
+          <li>
+            <a href="/pages/trumpets/getzen-c-lb-sk4614/">
+              Getzen c lb sk4614
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Olds LLM #1498 ")</script>
+          <li>
+            <a href="/pages/trumpets/olds-llm-1498/">
+              Olds llm #1498
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Olds Super Recording #26052")</script>
+          <li>
+            <a href="/pages/trumpets/olds-super-recording-26052/">
+              Olds super recording #26052
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Reynolds Contemporary # 32773")</script>
+          <li>
+            <a href="/pages/trumpets/reynolds-contemporary-32773/">
+              Reynolds contemporary # 32773
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/Reynolds Contemporary #42408")</script>
+          <li>
+            <a href="/pages/trumpets/reynolds-contemporary-42408/">
+              Reynolds contemporary #42408
+            </a>
+          </li>
+          
+            <script>console.log("/instruments/York Custom #134291 ")</script>
+          <li>
+            <a href="/pages/trumpets/york-custom-134291/">
+              York custom #134291
             </a>
           </li>
         </ul>
