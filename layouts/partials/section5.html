@@ -31,13 +31,14 @@
               </p>
               <div class="column is-12">
                 <textarea name="message" class="textarea" rows="10" placeholder="Write someting..."></textarea>
-                <button class="g-recaptcha"
-                    data-sitekey= reCAPTCHA_site_key
-                    data-callback='onSubmit'
-                    data-action='submit'>Submit</button>
+
               </div>
               <div class="form-footer has-text-centered mt-10">
-                <button type= "submit" class="button cta is-large primary-btn raised is-clear">Send Message</button>
+                <button type= "submit" class="button cta is-large primary-btn raised is-clear"
+                    class="g-recaptcha"
+                    data-sitekey= process.env.reCAPTCHA_site_key
+                    data-callback='onSubmit'
+                    data-action='submit'>Send Message</button>
               </div>
             </div>
           </form>
