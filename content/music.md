@@ -4,7 +4,6 @@ title = "Music"
 
 +++
 <h2>For G.A.</h2>
-<script src='https://embed.songtradr.com/v1/es' data-key='MlNSehlFFnfjohBDvpWvWcKrTJHzHdpX' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='DwtMNqWGipOOTGSyFVhutRTxaTMtIHiN' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='mJCNXhVgyJtoPftdpykEvRyqsrLZLqyW' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='uLfGfOlexRsvCWmsVTJbeBFnkMmMmuWl' data-size='sm'></script>
@@ -20,7 +19,6 @@ title = "Music"
 <script src='https://embed.songtradr.com/v1/es' data-key='mqxLBtOgeKKwnPUvJAcnOwOyQthNIzcv' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='wvBPGLaPZxuymVXbbFzmljSxjMOAToPo' data-size='sm'></script>
 <h2>Midibop</h2>
-<script src='https://embed.songtradr.com/v1/es' data-key='tAUKrLcbGncCZfjJDOMZchzvOtQslRrT' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='XRWzbGvuMkrICFPmjdpETqEANpekjHgG' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='yPGOQBpkrOxHhrCIVfBdwetQblvqVWsA' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='EFXjQssMDMxexYwIIbOBXjHzaAjljIBW' data-size='sm'></script>
