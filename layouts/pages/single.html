@@ -5,6 +5,7 @@
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     {{ partial "css.html" . }}
     {{ partial "flickity.html"}}
+    <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
   </head>
   <body>
 
@@ -18,9 +19,9 @@
     {{ partial "single/single.html" . }}
 
 
-    <div class="carousel">
+    <div class="carousel" >
 
-      <div class="carousel carousel-main" >
+      <div class="carousel carousel-main" data-flickity='{ "fullscreen": true }' >
         {{ range .Params.images }}
         <div class="carousel-cell"><img style="object-fit: contain" src = "{{ . | relURL }}"></div>
       {{end}}
@@ -58,7 +59,7 @@
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js">></script>
         <script type="text/javascript">
         var $carousel = $('.carousel').flickity(
-          fullscreen: true
+          fullscreen: true,
         );
 
         var $carouselNav = $('.carousel-nav');
@@ -69,13 +70,17 @@
           $carousel.flickity( 'select', index );
         });
 
-
         var flkty = $carousel.data('flickity');
         var navTop  = $carouselNav.position().top;
         var navCellHeight = $carouselNavCells.height();
         var navHeight = $carouselNav.height();
-        flkty.on( 'fullscreenChange', function( isFullscreen ) {
-
+        var navbar = document.getElementsByClassName('navbar is-fresh is-transparent is-active');
+        var navbarClone = document.getElementById('navbar-clone');
+        flkty.on('fullscreenChange', function(){
+          if(isFullscreen){
+            navbar.style.display = "none";
+            navbarClone.style.display = "none";
+          }
         });
 
         $carousel.on( 'select.flickity', function() {
@@ -102,6 +107,6 @@
       document.getElementById("contact").submit();
     }
   </script>
-  <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+    <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
   <script src="https://www.google.com/recaptcha/api.js"></script>
 </html>

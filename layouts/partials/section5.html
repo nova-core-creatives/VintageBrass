@@ -29,6 +29,11 @@
                   Subject <input name="subject" class="input is-medium" type="text" >
                 </label>
               </p>
+              <p style="display:none;">
+                <label>
+                  {{ .Permalink }}
+                </label>
+              </p>
               <div class="column is-12">
                 <textarea name="message" class="textarea" rows="10" placeholder="Write someting..."></textarea>
                 <div data-netlify-recaptcha="true"></div>
