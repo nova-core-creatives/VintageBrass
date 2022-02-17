@@ -20,7 +20,7 @@
     
 <link rel="icon" type="image/png" href="/images/logos/symbol.png" />
 <link href="https://fonts.googleapis.com/css?family=Lexand&#43;Peta:400,600" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/css/style.min.7eefd46b762b78953d6bb806a133baf3eaa83b76725cba2906e5bc2823a7c278.css" integrity="sha256-fu/Ua3YreJU9a7gGoTO68&#43;qoO3ZyXLopBuW8KCOnwng=">
+<link rel="stylesheet" type="text/css" href="/css/style.min.fb9738723d6909f7f4301cc1087663a9c0b10f6a8ecc72c3db2d17d2e7408ba5.css" integrity="sha256-&#43;5c4cj1pCff0MBzBCHZjqcCxD2qOzHLD2y0X0udAi6U=">
 <link rel="stylesheet" type="text/css" href="/css/icons.css">
 <style>
   html {
@@ -59,7 +59,7 @@ body { font-family: sans-serif; }
   counter-increment: carousel-cell;
   display: flex;
   align-items: center;
-  justify-content: ;
+  justify-content: center;
   object-fit: contain;
 
 
@@ -106,6 +106,8 @@ body { font-family: sans-serif; }
   max-width: 100%;
   z-index:5;
 }
+.flickity-enabled.is-fullscreen .flickity-fullscreen-button-exit { display: block; top:150px }
+.flickity-enabled.is-fullscreen .flickity-fullscreen-button-view { display: none; }
 
 img {
   width: 100%;
@@ -118,6 +120,7 @@ img {
 <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen" >
 
+    <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
   </head>
   <body>
 
@@ -396,6 +399,9 @@ img {
                   Subject <input name="subject" class="input is-medium" type="text" >
                 </label>
               </p>
+              <p style="display:none;">
+              <textarea name="page" class="textarea" placeholder="page-link">  https://paulayickvintagebrass.com/pages/trumpets/york-custom-134291/</textarea>
+              </p>
               <div class="column is-12">
                 <textarea name="message" class="textarea" rows="10" placeholder="Write someting..."></textarea>
                 <div data-netlify-recaptcha="true"></div>
@@ -427,7 +433,6 @@ img {
     <ul class="sidebar-menu">
 
       
-      <script>console.log("cornets")</script>
       <li class="have-children">
         <a href="#">
           <span class="fa fa-check"></span>
@@ -435,21 +440,21 @@ img {
         </a>
         <ul>
           
-            <script>console.log("/instruments/Con-Querer 83352")</script>
+    
           <li>
             <a href="/pages/cornets/con-querer-83352/">
               Con querer 83352
             </a>
           </li>
           
-            <script>console.log("/instruments/Conn Director Coprion")</script>
+    
           <li>
             <a href="/pages/cornets/conn-director-coprion/">
               Conn director coprion
             </a>
           </li>
           
-            <script>console.log("/instruments/Conn- New Invention 133067 ")</script>
+    
           <li>
             <a href="/pages/cornets/conn-new-invention-133067/">
               Conn new invention 133067
@@ -457,7 +462,6 @@ img {
           </li>
         </ul>
       </li>
-      <script>console.log("custom")</script>
       <li class="have-children">
         <a href="#">
           <span class="fa fa-check"></span>
@@ -465,35 +469,35 @@ img {
         </a>
         <ul>
           
-            <script>console.log("/instruments/Custom Conn 41-68")</script>
+    
           <li>
             <a href="/pages/custom/custom-conn-41-68/">
               Custom conn 41 68
             </a>
           </li>
           
-            <script>console.log("/instruments/Custom Olds 43")</script>
+    
           <li>
             <a href="/pages/custom/custom-olds-43/">
               Custom olds 43
             </a>
           </li>
           
-            <script>console.log("/instruments/Custom Olds C358X")</script>
+    
           <li>
             <a href="/pages/custom/custom-olds-c358x/">
               Custom olds c358 x
             </a>
           </li>
           
-            <script>console.log("/instruments/Custom Olds C408X")</script>
+    
           <li>
             <a href="/pages/custom/custom-olds-c408x/">
               Custom olds c408 x
             </a>
           </li>
           
-            <script>console.log("/instruments/Custom Olds R45X")</script>
+    
           <li>
             <a href="/pages/custom/custom-olds-r45x/">
               Custom olds r45 x
@@ -501,7 +505,6 @@ img {
           </li>
         </ul>
       </li>
-      <script>console.log("misc")</script>
       <li class="have-children">
         <a href="#">
           <span class="fa fa-check"></span>
@@ -509,28 +512,28 @@ img {
         </a>
         <ul>
           
-            <script>console.log("/instruments/Besson Flghrn 72352")</script>
+    
           <li>
             <a href="/pages/misc/besson-flghrn-72352/">
               Besson flghrn 72352
             </a>
           </li>
           
-            <script>console.log("/instruments/Olds Double Horn")</script>
+    
           <li>
             <a href="/pages/misc/olds-double-horn/">
               Olds double horn
             </a>
           </li>
           
-            <script>console.log("/instruments/Olds Special Tri-color Trombone")</script>
+    
           <li>
             <a href="/pages/misc/olds-special-tri-color-trombone/">
               Olds special tri color trombone
             </a>
           </li>
           
-            <script>console.log("/instruments/Ruhlmann 7 Keyed Bugle")</script>
+    
           <li>
             <a href="/pages/misc/ruhlmann-7-keyed-bugle/">
               Ruhlmann 7 keyed bugle
@@ -538,7 +541,539 @@ img {
           </li>
         </ul>
       </li>
-      <script>console.log("trumpets")</script>
+      <li class="have-children">
+        <a href="#">
+          <span class="fa fa-check"></span>
+          Sold
+        </a>
+        <ul>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/bach-8361-ny/">
+              Bach #8361 ny
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/bach-37-1910-s/">
+              Bach 37 1910&#39;s
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/bach-43/">
+              Bach 43
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/bach-fluegel-horn/">
+              Bach fluegel horn
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/benge-la/">
+              Benge la
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/besson-2-20-uk-370354/">
+              Besson 2 20 uk #370354
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/besson-2-20-uk-452936/">
+              Besson 2 20 uk #452936
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/besson-2-20-uk-476648/">
+              Besson 2 20 uk #476648
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/blessing-super-artist-50700/">
+              Blessing super artist #50700
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/boston-musical-instrument-co-24580/">
+              Boston musical instrument co #24580
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/buescher-239349/">
+              Buescher #239349
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/buescher-269460-custom-blt-235/">
+              Buescher #269460 custom blt 235
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/buescher-aristocrat-561216/">
+              Buescher aristocrat #561216
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/buescher-gold-254010-model-lp-232/">
+              Buescher gold # 254010 model lp 232
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/buescher-model-8-177380/">
+              Buescher model 8 #177380
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/callet-5244-ml/">
+              Callet #5244 ml
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-38b-624364/">
+              Conn 38 b #624364
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-178677-gold/">
+              Conn # 178677 gold
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-124884/">
+              Conn #124884
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-124884-1912/">
+              Conn #124884 1912
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-180140-silver/">
+              Conn #180140 silver
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn.468/">
+              Conn .468
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-10a-632494/">
+              Conn 10 a #632494
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-10b-coprion-576676/">
+              Conn 10 b coprion #576676
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-10b-576677/">
+              Conn 10 b #576677
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-10b-673657/">
+              Conn 10 b #673657
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-10b-676741/">
+              Conn 10 b #676741
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-10b-801979/">
+              Conn 10 b #801979
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-10b-283451/">
+              Conn 10 b 283451
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-10b-coprion-673657/">
+              Conn 10 b coprion #673657
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-10b-coprion-679204/">
+              Conn 10 b coprion #679204
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-12b-404212/">
+              Conn 12 b #404212
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-12b-coprion/">
+              Conn 12 b coprion
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-12b-coprion-408727/">
+              Conn 12 b coprion #408727
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-12b-coprion-371715/">
+              Conn 12 b coprion 371715
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-17a-844689/">
+              Conn 17 a #844689
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-22b-victor-900827/">
+              Conn 22 b victor #900827
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-24b-221339/">
+              Conn 24 b 221339
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-24b-gold-214058/">
+              Conn 24 b gold # 214058
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-26b-198410/">
+              Conn 26 b #198410
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-26b-204126/">
+              Conn 26 b #204126
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-27b-244535-hp/">
+              Conn 27 b #244535 hp
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-28b-connstellation-391954/">
+              Conn 28 b connstellation #391954
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-28b-connstellation-402252/">
+              Conn 28 b connstellation #402252
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-28b-connstellation-519404/">
+              Conn 28 b connstellation #519404
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-2b-254632/">
+              Conn 2 b #254632
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-2b-389772-new-world-symphony/">
+              Conn 2 b 389772 new world symphony
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-2b-ex-fancy-260345/">
+              Conn 2 b ex fancy #260345
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-2b-gold-plated-261xxx/">
+              Conn 2 b gold plated #261xxx
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-38b-664147/">
+              Conn 38 b 664147
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-38b-877xxx/">
+              Conn 38 b 877xxx
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-38b-gf420207/">
+              Conn 38 b gf420207
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-38b-ko3700/">
+              Conn 38 b ko3700
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-40b-293639/">
+              Conn 40 b #293639
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-40b-304203/">
+              Conn 40 b #304203
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-40b-vocabell-293061/">
+              Conn 40 b vocabell 293061
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-48a-vocabell-347946/">
+              Conn 48 a vocabell #347946
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-48b-vocabell-347763/">
+              Conn 48 b vocabell #347763
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-48b-vocabell-349338/">
+              Conn 48 b vocabell #349338
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-4b-symphony-182875/">
+              Conn 4 b symphony #182875
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-58b-274800/">
+              Conn 58 b 274800
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-60b-n47538/">
+              Conn 60 b n47538
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-6b-574168/">
+              Conn 6 b #574168
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-6b-635844/">
+              Conn 6 b #635844
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-6b-h62707/">
+              Conn 6 b # h62707
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-8b-c87568/">
+              Conn 8 b # c87568
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-8b-ge821568-19/">
+              Conn 8 b ge821568 19
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-8b-gustat-313xxx/">
+              Conn 8 b gustat 313xxx
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-8b-k24075/">
+              Conn 8 b k24075
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-8b-m65693/">
+              Conn 8 b m65693
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-8b-r20521/">
+              Conn 8 b r20521
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-cornet/">
+              Conn cornet
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-cornet-95096-m-1906/">
+              Conn cornet #95096 m 1906
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-director-635955/">
+              Conn director #635955
+            </a>
+          </li>
+          
+    
+          <li>
+            <a href="/pages/sold/horns/conn-director-p73822/">
+              Conn director # p73822
+            </a>
+          </li>
+        </ul>
+      </li>
       <li class="have-children">
         <a href="#">
           <span class="fa fa-check"></span>
@@ -546,175 +1081,175 @@ img {
         </a>
         <ul>
           
-            <script>console.log("/instruments/Bach NY #1387")</script>
+    
           <li>
             <a href="/pages/trumpets/bach-ny-1387/">
               Bach ny #1387
             </a>
           </li>
           
-            <script>console.log("/instruments/Besson Brevete #75576")</script>
+    
           <li>
             <a href="/pages/trumpets/besson-brevete-75576/">
               Besson brevete #75576
             </a>
           </li>
           
-            <script>console.log("/instruments/Besson Brevete #82644")</script>
+    
           <li>
             <a href="/pages/trumpets/besson-brevete-82644/">
               Besson brevete #82644
             </a>
           </li>
           
-            <script>console.log("/instruments/Besson Brevete #87460")</script>
+    
           <li>
             <a href="/pages/trumpets/besson-brevete-87460/">
               Besson brevete #87460
             </a>
           </li>
           
-            <script>console.log("/instruments/Besson Fabrication #88306")</script>
+    
           <li>
             <a href="/pages/trumpets/besson-fabrication-88306/">
               Besson fabrication #88306
             </a>
           </li>
           
-            <script>console.log("/instruments/Brevette 82694")</script>
+    
           <li>
             <a href="/pages/trumpets/brevette-82694/">
               Brevette 82694
             </a>
           </li>
           
-            <script>console.log("/instruments/Conn # 178677")</script>
+    
           <li>
             <a href="/pages/trumpets/conn-178677/">
               Conn # 178677
             </a>
           </li>
           
-            <script>console.log("/instruments/Conn #115123")</script>
+    
           <li>
             <a href="/pages/trumpets/conn-115123/">
               Conn #115123
             </a>
           </li>
           
-            <script>console.log("/instruments/Conn #167xxx")</script>
+    
           <li>
             <a href="/pages/trumpets/conn-167xxx/">
               Conn #167xxx
             </a>
           </li>
           
-            <script>console.log("/instruments/Conn 115790")</script>
+    
           <li>
             <a href="/pages/trumpets/conn-115790/">
               Conn 115790
             </a>
           </li>
           
-            <script>console.log("/instruments/Conn 16B Rosebrook Trumpet  #200089")</script>
+    
           <li>
             <a href="/pages/trumpets/conn-16b-rosebrook-trumpet-200089/">
               Conn 16 b rosebrook trumpet #200089
             </a>
           </li>
           
-            <script>console.log("/instruments/Conn 28B Gold #227163")</script>
+    
           <li>
             <a href="/pages/trumpets/conn-28b-gold-227163/">
               Conn 28 b gold #227163
             </a>
           </li>
           
-            <script>console.log("/instruments/CONN 2B Gold plated #242621")</script>
+    
           <li>
             <a href="/pages/trumpets/conn-2b-gold-plated-242621/">
               Conn 2 b gold plated #242621
             </a>
           </li>
           
-            <script>console.log("/instruments/Conn 4B Symphony  #182875")</script>
+    
           <li>
             <a href="/pages/trumpets/conn-4b-symphony-182875/">
               Conn 4 b symphony #182875
             </a>
           </li>
           
-            <script>console.log("/instruments/Conn 56B New Era")</script>
+    
           <li>
             <a href="/pages/trumpets/conn-56b-new-era/">
               Conn 56 b new era
             </a>
           </li>
           
-            <script>console.log("/instruments/Conn 58B Gold #270310")</script>
+    
           <li>
             <a href="/pages/trumpets/conn-58b-gold-270310/">
               Conn 58 b gold #270310
             </a>
           </li>
           
-            <script>console.log("/instruments/Conn S-Bore #98502 ")</script>
+    
           <li>
             <a href="/pages/trumpets/conn-s-bore-98502/">
               Conn s bore #98502
             </a>
           </li>
           
-            <script>console.log("/instruments/Courtois #10041")</script>
+    
           <li>
             <a href="/pages/trumpets/courtois-10041/">
               Courtois #10041
             </a>
           </li>
           
-            <script>console.log("/instruments/Courtois L-bore Balanced #6329")</script>
+    
           <li>
             <a href="/pages/trumpets/courtois-l-bore-balanced-6329/">
               Courtois l bore balanced #6329
             </a>
           </li>
           
-            <script>console.log("/instruments/Getzen C LB SK4614")</script>
+    
           <li>
             <a href="/pages/trumpets/getzen-c-lb-sk4614/">
               Getzen c lb sk4614
             </a>
           </li>
           
-            <script>console.log("/instruments/Olds LLM #1498 ")</script>
+    
           <li>
             <a href="/pages/trumpets/olds-llm-1498/">
               Olds llm #1498
             </a>
           </li>
           
-            <script>console.log("/instruments/Olds Super Recording #26052")</script>
+    
           <li>
             <a href="/pages/trumpets/olds-super-recording-26052/">
               Olds super recording #26052
             </a>
           </li>
           
-            <script>console.log("/instruments/Reynolds Contemporary # 32773")</script>
+    
           <li>
             <a href="/pages/trumpets/reynolds-contemporary-32773/">
               Reynolds contemporary # 32773
             </a>
           </li>
           
-            <script>console.log("/instruments/Reynolds Contemporary #42408")</script>
+    
           <li>
             <a href="/pages/trumpets/reynolds-contemporary-42408/">
               Reynolds contemporary #42408
             </a>
           </li>
           
-            <script>console.log("/instruments/York Custom #134291 ")</script>
+    
           <li>
             <a href="/pages/trumpets/york-custom-134291/">
               York custom #134291
@@ -782,12 +1317,6 @@ img {
     </div>
   </div>
 </footer>
-<script>
-  function onSubmit(token) {
-    document.getElementById("demo-form").submit();
-  }
-</script>
-<script src="https://www.google.com/recaptcha/api.js"></script>
 
      
 
@@ -803,7 +1332,7 @@ img {
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js">></script>
         <script type="text/javascript">
         var $carousel = $('.carousel').flickity(
-          fullscreen: true
+          fullscreen: true,
         );
 
         var $carouselNav = $('.carousel-nav');
@@ -814,13 +1343,17 @@ img {
           $carousel.flickity( 'select', index );
         });
 
-
         var flkty = $carousel.data('flickity');
         var navTop  = $carouselNav.position().top;
         var navCellHeight = $carouselNavCells.height();
         var navHeight = $carouselNav.height();
-        flkty.on( 'fullscreenChange', function( isFullscreen ) {
-
+        var navbar = document.getElementsByClassName('navbar is-fresh is-transparent is-active');
+        var navbarClone = document.getElementById('navbar-clone');
+        flkty.on('fullscreenChange', function(){
+          if(isFullscreen){
+            navbar.style.display = "none";
+            navbarClone.style.display = "none";
+          }
         });
 
         $carousel.on( 'select.flickity', function() {
@@ -847,6 +1380,6 @@ img {
       document.getElementById("contact").submit();
     }
   </script>
-  <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+    <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
   <script src="https://www.google.com/recaptcha/api.js"></script>
 </html>
