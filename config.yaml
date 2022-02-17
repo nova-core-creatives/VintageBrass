@@ -112,21 +112,22 @@ params:
     buttonText: Reach Out
     buttonLink: "/contact"
   section4:
-    title: My Services
-    subtitle: I buy and sell vintage brass, consult, appraise, and play trumpet professionally
+    title: Are you in the market for a quality vintage brass instrument?
+    subtitle: ''
     clients:
-    - name: Brass
-      quote: I strive for accuracy in the descriptions of each horn I sell, and all
-        horns are shipped securely packaged, fully insured and sent promptly.
+    - name: Experienced
+      quote: I'm a lifelong trumpet professional and teacher who has been in the business
+        for over 20 years. I know what makes a quality brasswind instrument, and I
+        am here to help you find one that's perfect for you.
       img: "1"
-    - name: Consult
-      quote: If you are someone who just discovered "Uncle Harry's" old horn in the
-        attic, well then, you are just the kind of person I would like to hear from!
+    - name: Quality
+      quote: " I have a wide selection of vintage trumpets, cornets and horns that
+        are perfect for any musician looking to add some history to their sound. You
+        won't find instruments like these anywhere else."
       img: "2"
-    - name: Appraise
-      quote: I work entirely from my home in South Florida where I also work as a
-        trumpet player. I enjoy hearing from anyone with a question, comment, or just
-        to say hello,  I always have time to "talk trumpet"
+    - name: 'Professional '
+      quote: Take a look around and browse through my collection of vintage brass
+        instruments! When you find one you like, reach out and we'll make it happen.
       img: "3"
   section5: true
   footer:
