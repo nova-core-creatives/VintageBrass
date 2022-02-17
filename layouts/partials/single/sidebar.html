@@ -10,7 +10,6 @@
     <ul class="sidebar-menu">
 
       {{ range $key, $taxonomy := .Site.Taxonomies.instruments }}
-      <script>console.log({{$key}})</script>
       <li class="have-children">
         <a href="#">
           <span class="fa fa-check"></span>
@@ -19,7 +18,7 @@
         <ul>
           {{- range $taxonomy.Pages }}
           {{ $file := printf "/instruments/%s" .Title}}
-            <script>console.log({{$file}})</script>
+    
           <li>
             <a href="{{ .RelPermalink }}">
               {{ humanize .Title }}

@@ -3,6 +3,7 @@ subtitle = "My Discography"
 title = "Music"
 
 +++
+<div class ="container is-pulled-left">
 <h2>For G.A.</h2>
 <script src='https://embed.songtradr.com/v1/es' data-key='DwtMNqWGipOOTGSyFVhutRTxaTMtIHiN' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='mJCNXhVgyJtoPftdpykEvRyqsrLZLqyW' data-size='sm'></script>
@@ -27,3 +28,4 @@ title = "Music"
 <script src='https://embed.songtradr.com/v1/es' data-key='TpbaWMsAcluElvXUZMzsglEgHRwbemqi' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='VelsNgiNTPmYgPfsPaskyMXGIZkKzSBw' data-size='sm'></script>
 <script src='https://embed.songtradr.com/v1/es' data-key='hQTjsdGtlRNXACJoWxGeyFlTpnjMiBwf' data-size='sm'></script>
+</div>
