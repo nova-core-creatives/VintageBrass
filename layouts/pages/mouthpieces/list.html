@@ -53,7 +53,7 @@
 
       <div class="carousel-container">
 
-        <div class="carousel carousel-main">
+        <div class="carousel carousel-main" data-flickity='{ "fullscreen": true }'>
           {{ range .Params.images }}
           <div class="carousel-cell"><img style="object-fit: contain" src = "{{ . | relURL }}"></div>
         {{end}}

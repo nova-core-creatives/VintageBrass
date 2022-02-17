@@ -3416,7 +3416,7 @@ a.tag:hover {
 .dropdown {
   display: inline-flex;
   position: relative;
-  vertical-align: top; }
+  vertical-align: bottom; }
   .dropdown.is-active .dropdown-menu, .dropdown.is-hoverable:hover .dropdown-menu {
     display: block; }
   .dropdown.is-right .dropdown-menu {
