@@ -42,7 +42,7 @@ $navbar-divider-height: 2px !default
 
 =navbar-fixed
   left: 0
-  position: absolute
+  position: fixed
   right: 0
   z-index: $navbar-fixed-z
 
@@ -50,8 +50,8 @@ $navbar-divider-height: 2px !default
   background-color: $navbar-background-color
   box-shadow: $navbar-box-shadow-size $navbar-box-shadow-color
   min-height: $navbar-height
-  position: absolute
-
+  position: relative
+  z-index: $navbar-z
   @each $name, $pair in $colors
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
