@@ -22,3 +22,5 @@ fields:
     required: false
   label: instruments
   default: sold
+pages:
+- content/pages/sold/horns/bach-8361-ny.md
