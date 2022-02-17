@@ -1,0 +1,7 @@
++++
+images = ["/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-3.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-19.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-18.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-17.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-16.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-15.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-14.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-13.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-12.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-11.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-10.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-9.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-8.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-7.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-6.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-5.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-4.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-2.jpg", "/uploads/old-vintage-trumpets-cornets-instruments-brasswinds-1.jpg"]
+instruments = "sold"
+subtitle = ""
+title = "Conn 48B Vocabell #349338"
+
++++
