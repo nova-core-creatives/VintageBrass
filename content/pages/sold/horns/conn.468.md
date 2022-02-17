@@ -1,0 +1,7 @@
++++
+images = ["/uploads/vintage-brass-brasswind-bach-trumpets-trumpet-cornet-cornets-horns-jazz-buy-purchase-ebay-3.jpg", "/uploads/vintage-brass-brasswind-bach-trumpets-trumpet-cornet-cornets-horns-jazz-buy-purchase-ebay-13.jpg", "/uploads/vintage-brass-brasswind-bach-trumpets-trumpet-cornet-cornets-horns-jazz-buy-purchase-ebay-12.jpg", "/uploads/vintage-brass-brasswind-bach-trumpets-trumpet-cornet-cornets-horns-jazz-buy-purchase-ebay-11.jpg", "/uploads/vintage-brass-brasswind-bach-trumpets-trumpet-cornet-cornets-horns-jazz-buy-purchase-ebay-10.jpg", "/uploads/vintage-brass-brasswind-bach-trumpets-trumpet-cornet-cornets-horns-jazz-buy-purchase-ebay-9.jpg", "/uploads/vintage-brass-brasswind-bach-trumpets-trumpet-cornet-cornets-horns-jazz-buy-purchase-ebay-8.jpg", "/uploads/vintage-brass-brasswind-bach-trumpets-trumpet-cornet-cornets-horns-jazz-buy-purchase-ebay-7.jpg", "/uploads/vintage-brass-brasswind-bach-trumpets-trumpet-cornet-cornets-horns-jazz-buy-purchase-ebay-6.jpg", "/uploads/vintage-brass-brasswind-bach-trumpets-trumpet-cornet-cornets-horns-jazz-buy-purchase-ebay-5.jpg", "/uploads/vintage-brass-brasswind-bach-trumpets-trumpet-cornet-cornets-horns-jazz-buy-purchase-ebay-4.jpg", "/uploads/vintage-brass-brasswind-bach-trumpets-trumpet-cornet-cornets-horns-jazz-buy-purchase-ebay-2.jpg", "/uploads/vintage-brass-brasswind-bach-trumpets-trumpet-cornet-cornets-horns-jazz-buy-purchase-ebay-1.jpg"]
+instruments = "sold"
+subtitle = ""
+title = "Conn .468"
+
++++

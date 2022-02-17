@@ -1,0 +1,7 @@
++++
+images = ["/uploads/vintage-jazz-brasswind-cornet-instruments-old-11.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-21.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-20.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-19.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-18.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-17.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-16.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-15.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-14.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-13.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-12.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-10.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-9.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-8.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-7.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-6.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-5.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-4.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-3.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-2.jpg", "/uploads/vintage-jazz-brasswind-cornet-instruments-old-1.jpg"]
+instruments = "sold"
+subtitle = "Circa 1898"
+title = "Conn Cornet "
+
++++
