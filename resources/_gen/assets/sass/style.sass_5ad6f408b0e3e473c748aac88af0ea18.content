@@ -6167,6 +6167,7 @@ Navbar
 ========================================================================== */
 .navbar.is-fresh {
   position: relative;
+  align-self: center;
   min-height: 3.8rem;
   transition: all .3s;
   z-index: 99; }
@@ -6222,7 +6223,7 @@ Navbar
       line-height: 0;
       font-size: .9rem !important; }
   .navbar.is-fresh.is-fixed {
-    position: initial;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -6235,7 +6236,7 @@ Navbar
         color: #400040; }
 
 #navbar-clone {
-  position: initial;
+  position: inherit;
   top: 0;
   left: 0;
   width: 100%;
