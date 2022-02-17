@@ -20,7 +20,7 @@
     
 <link rel="icon" type="image/png" href="/images/logos/symbol.png" />
 <link href="https://fonts.googleapis.com/css?family=Lexand&#43;Peta:400,600" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/css/style.min.fb9738723d6909f7f4301cc1087663a9c0b10f6a8ecc72c3db2d17d2e7408ba5.css" integrity="sha256-&#43;5c4cj1pCff0MBzBCHZjqcCxD2qOzHLD2y0X0udAi6U=">
+<link rel="stylesheet" type="text/css" href="/css/style.min.029f1009291860ef4f129f825a0110d129c8f8424e8632131110c80e1b2845e7.css" integrity="sha256-Ap8QCSkYYO9PEp&#43;CWgEQ0SnI&#43;EJOhjITERDIDhsoRec=">
 <link rel="stylesheet" type="text/css" href="/css/icons.css">
 <style>
   html {
@@ -99,6 +99,14 @@ body { font-family: sans-serif; }
 .carousel-nav .carousel-cell.is-nav-selected {
   background: white;
 }
+.carousel.is-fullscreen .carousel-cell {
+  height: 100%;
+}
+.carousel.is-fullscreen .carousel-cell-image {
+  max-width: 100%;
+  z-index:5;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -107,7 +115,7 @@ img {
 
 </style>
 
-
+<link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen" >
 
   </head>
@@ -279,27 +287,27 @@ img {
       </div>
   </section>
 
-      <div class="carousel-container">
+      <div class="carousel-container" >
 
-        <div class="carousel carousel-main">
+        <div class="carousel carousel-main" data-flickity='{ "fullscreen": true }'>
           
-          <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/20190914_105610.jpg"></div>
+          <div class="carousel-cell"><img src="/uploads/20190914_105610.jpg" style="object-fit: contain"></div>
         
-          <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/20190914_105758.jpg"></div>
+          <div class="carousel-cell"><img src="/uploads/20190914_105758.jpg" style="object-fit: contain"></div>
         
-          <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/20190914_105728.jpg"></div>
+          <div class="carousel-cell"><img src="/uploads/20190914_105728.jpg" style="object-fit: contain"></div>
         
-          <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/20190914_105718.jpg"></div>
+          <div class="carousel-cell"><img src="/uploads/20190914_105718.jpg" style="object-fit: contain"></div>
         
-          <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/20190914_105703.jpg"></div>
+          <div class="carousel-cell"><img src="/uploads/20190914_105703.jpg" style="object-fit: contain"></div>
         
-          <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/20190914_105651.jpg"></div>
+          <div class="carousel-cell"><img src="/uploads/20190914_105651.jpg" style="object-fit: contain"></div>
         
-          <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/20190914_105644.jpg"></div>
+          <div class="carousel-cell"><img src="/uploads/20190914_105644.jpg" style="object-fit: contain"></div>
         
-          <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/20190914_105632.jpg"></div>
+          <div class="carousel-cell"><img src="/uploads/20190914_105632.jpg" style="object-fit: contain"></div>
         
-          <div class="carousel-cell"><img style="object-fit: contain" src = "/uploads/20190914_105620.jpg"></div>
+          <div class="carousel-cell"><img src="/uploads/20190914_105620.jpg" style="object-fit: contain"></div>
         
        </div>
 
@@ -708,6 +716,11 @@ img {
             </div>
             <ul class="link-list">
               <li>
+                <a href="/music">
+                  My Music
+                </a>
+              </li>
+              <li>
                 <a href="/links">
                   My Favorite Sites
                 </a>
@@ -761,7 +774,9 @@ img {
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js">></script>
         <script type="text/javascript">
-        var $carousel = $('.carousel').flickity();
+        var $carousel = $('.carousel').flickity(
+          fullscreen: true
+        );
 
         var $carouselNav = $('.carousel-nav');
         var $carouselNavCells = $carouselNav.find('.carousel-cell');
@@ -771,10 +786,14 @@ img {
           $carousel.flickity( 'select', index );
         });
 
+
         var flkty = $carousel.data('flickity');
         var navTop  = $carouselNav.position().top;
         var navCellHeight = $carouselNavCells.height();
         var navHeight = $carouselNav.height();
+        flkty.on( 'fullscreenChange', function( isFullscreen ) {
+
+        });
 
         $carousel.on( 'select.flickity', function() {
           
@@ -800,5 +819,6 @@ img {
       document.getElementById("contact").submit();
     }
   </script>
+  <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
   <script src="https://www.google.com/recaptcha/api.js"></script>
 </html>

@@ -3825,8 +3825,7 @@ a.dropdown-item {
   background-color: white;
   box-shadow: 0 2px 0 0 whitesmoke;
   min-height: 3.25rem;
-  position: relative;
-  z-index: 30; }
+  position: absolute; }
   .navbar.is-white {
     background-color: white;
     color: #0a0a0a; }
@@ -4216,7 +4215,7 @@ a.dropdown-item {
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1); }
   .navbar.is-fixed-bottom, .navbar.is-fixed-top {
     left: 0;
-    position: fixed;
+    position: absolute;
     right: 0;
     z-index: 30; }
   .navbar.is-fixed-bottom {
@@ -4376,7 +4375,7 @@ a.navbar-item,
       display: block; }
   .navbar.is-fixed-bottom-touch, .navbar.is-fixed-top-touch {
     left: 0;
-    position: fixed;
+    position: absolute;
     right: 0;
     z-index: 30; }
   .navbar.is-fixed-bottom-touch {
@@ -4507,7 +4506,7 @@ a.navbar-item,
     margin-right: -1rem; }
   .navbar.is-fixed-bottom-desktop, .navbar.is-fixed-top-desktop {
     left: 0;
-    position: fixed;
+    position: absolute;
     right: 0;
     z-index: 30; }
   .navbar.is-fixed-bottom-desktop {
@@ -6223,7 +6222,7 @@ Navbar
       line-height: 0;
       font-size: .9rem !important; }
   .navbar.is-fresh.is-fixed {
-    position: fixed;
+    position: initial;
     top: 0;
     left: 0;
     width: 100%;
@@ -6236,13 +6235,12 @@ Navbar
         color: #400040; }
 
 #navbar-clone {
-  position: fixed;
+  position: initial;
   top: 0;
   left: 0;
   width: 100%;
   background: #fff;
   transform: translateY(-100%);
-  z-index: 100;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12); }
   #navbar-clone.is-active {
     transform: translateY(0); }
