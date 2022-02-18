@@ -3,6 +3,7 @@ subtitle = ""
 title = "Learn More"
 
 +++
+<div class ="container" style="background: primary;">
 When I first started seriously collecting brasswind instruments, brass instruments were very inexpensive. There were many great deals to be had and many players were selling their instruments in order to pay for more expensive newer models. Times have changed. Many of these same players are now replacing their brass with silver or even trumpets made out of plastic! I believe in the tried and true brass of our greatest generations. That is why vintage brass is all the rage right now by top professionals, educators and collectors.
 
 \***
@@ -24,3 +25,5 @@ When I first started seriously collecting brasswind instruments, brass instrumen
 If this interests you, take a look around and drop me a line if you see a must have instrument, if you need some help, or if you'd just like to talk brass! When you find your way to my music, have a listen and find me on any popular music streaming platform.
 
 _Talk to you soon!_
+
+</div>
