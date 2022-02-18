@@ -13,4 +13,5 @@ fields:
     required: false
   label: Subtitle
 pages:
+- content/learn-more.md
 - content/music.md
