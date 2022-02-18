@@ -23,6 +23,12 @@ fields:
   label: instruments
   default: sold
 pages:
+- content/pages/sold/custom/buescher-conn-38b.md
+- content/pages/sold/custom/buescher-coprion-pz.md
+- content/pages/sold/custom/buescher-custom-built-293112.md
+- content/pages/sold/custom/bupkgz.md
+- content/pages/sold/custom/conn-10a-648048.md
+- content/pages/sold/custom/conn-yama-pz.md
 - content/pages/sold/horns/bach-37-1910-s.md
 - content/pages/sold/horns/bach-43.md
 - content/pages/sold/horns/bach-fluegel-horn.md
