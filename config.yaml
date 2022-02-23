@@ -31,7 +31,7 @@ params:
     title: Vintage Brass.
     subtitle: Trumpets, Cornets, Brass, and Other Winds
     buttontext: Learn More
-    buttonlink: "#"
+    buttonlink: learn-more
     image: logos/sabotage.jpeg
   navbar:
   - title: Trumpets
