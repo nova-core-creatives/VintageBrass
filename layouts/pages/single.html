@@ -28,7 +28,7 @@
      </div>
 
 
-      <div class="carousel-nav">
+      <div class="carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }' >
         <div class="carousel-cell is-nav-selected"></div>
         {{ range .Params.images }}
       <div class="carousel-cell"><img style="object-fit: contain"src = "{{ . | relURL }}"></div>
@@ -74,15 +74,18 @@
         var navTop  = $carouselNav.position().top;
         var navCellHeight = $carouselNavCells.height();
         var navHeight = $carouselNav.height();
-        var navbar = document.getElementsByClassName('navbar is-fresh is-transparent is-active');
-        var navbarClone = document.getElementById('navbar-clone');
-        flkty.on('fullscreenChange', function(){
-          if(isFullscreen){
-            navbar.style.display = "none";
-            navbarClone.style.display = "none";
-          }
-        });
+        var navbar = document.querySelector('navbar-brand');
+        var navbarMenu = document.getElementById('cloned-navbar-menu');
+        var navbarClone = document.querySelector('navbar-clone');
 
+        if($carousel.isFullscreen){
+          navbar.style.display = "none";
+          navbarClone.style.display = "none";
+          navbarMenu.style.display = "none";
+        }
+        $carousel.on('fullscreenChange', function(isFullscreen) {
+
+          });
         $carousel.on( 'select.flickity', function() {
           // set selected nav cell
           $carouselNav.find('.is-nav-selected').removeClass('is-nav-selected');

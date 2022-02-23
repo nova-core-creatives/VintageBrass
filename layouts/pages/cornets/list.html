@@ -60,7 +60,7 @@
        </div>
 
 
-        <div class="carousel-nav">
+        <div class="carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
           <div class="carousel-cell is-nav-selected"></div>
           {{ range .Params.images }}
         <div class="carousel-cell"><img style="object-fit: contain"src = "{{ . | relURL }}"></div>

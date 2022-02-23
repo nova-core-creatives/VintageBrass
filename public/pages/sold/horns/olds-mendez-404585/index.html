@@ -75,12 +75,7 @@ body { font-family: sans-serif; }
   color: white;
 }
 
-.carousel-nav {
-  width: 120px;
-  margin-left: 10px;
-  max-height: 400px;
-  overflow-y: scroll;
-}
+
 
 .carousel-nav .carousel-cell {
   height: 80px;
@@ -290,7 +285,7 @@ img {
       </div>
   </section>
 
-      <div class="carousel-container" >
+
 
         <div class="carousel carousel-main" data-flickity='{ "fullscreen": true }'>
           
@@ -323,9 +318,19 @@ img {
           <div class="carousel-cell"><img src="/uploads/olds-mendez-4045851.jpg" style="object-fit: contain"></div>
         
        </div>
+       <script>
+       var navbar = document.getElementsByClassName('navbar is-fresh is-transparent no-shadow');
+       var navbarClone = document.getElementById('navbar-clone');
 
+       flkty.on('fullscreenChange', function(){
+           if(isFullscreen){
+             navbar.style.display = "none";
+             navbarClone.style.display = "none";
+           }
+         });
+       </script>
 
-        <div class="carousel-nav">
+        <div class="carousel-nav" data-flickity='{ "asNavFor": ".carousel", "contain": true, "pageDots": false }'>
           <div class="carousel-cell is-nav-selected"></div>
           
         <div class="carousel-cell"><img style="object-fit: contain"src = "/uploads/olds-mendez-40458514.jpg"></div>
@@ -357,7 +362,7 @@ img {
         <div class="carousel-cell"><img style="object-fit: contain"src = "/uploads/olds-mendez-4045851.jpg"></div>
         
     </div>
-  </div>
+
 
 
       <section class="section section-light-grey is-medium" style = "background-image: url('/images/background.jpeg'); background-repeat: repeat;  background-position: center;  width: 100%;  height: 100%;">
