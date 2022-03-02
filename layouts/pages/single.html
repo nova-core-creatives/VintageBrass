@@ -53,7 +53,7 @@
 
     {{ partial "javascript.html" . }}
 
-  
+
     <script type="text/javascript">
     $(function() {
       var flkty = $('.carousel').data('flickity');
@@ -85,7 +85,7 @@
 
         <script type="text/javascript">
 
-        var $carousel = $('.carousel').flickity({fullscreen:true});
+        var $carousel = $('.carousel').flickity({fullscreen:true, draggable: true});
         var $carouselNav = $('.carousel-nav');
         var $carouselNavCells = $carouselNav.find('.carousel-cell');
 
