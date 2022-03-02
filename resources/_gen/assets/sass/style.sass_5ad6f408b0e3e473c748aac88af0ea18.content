@@ -6945,9 +6945,7 @@ Responsive Styles
   .pushed-image {
     margin-top: 0 !important; }
   .testimonial {
-    margin: 0 auto; }
-  .carousel.is-fullscreen .flickity-viewport {
-    height: 2000px; } }
+    margin: 0 auto; } }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .landing-caption {
