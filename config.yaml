@@ -3,7 +3,7 @@ baseURL: https://paulayickvintagebrass.com/
 languageCode: en-us
 title: Paul Ayick
 theme: hugo-fresh
-googleAnalytics: 
+googleAnalytics:
 uglyurls: false
 permalinks:
   instruments: instruments/:slug/
@@ -18,12 +18,12 @@ markup:
       unsafe: true
 params:
   openGraph: true
-  description: 
+  description:
   navbarlogo:
     image: logos/name.svg
     link: "/"
   font:
-    name: Lexand Peta
+    name: 
     sizes:
     - 400
     - 600

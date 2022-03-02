@@ -53,15 +53,39 @@
 
     {{ partial "javascript.html" . }}
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  
+    <script type="text/javascript">
+    $(function() {
+      var flkty = $('.carousel').data('flickity');
+      var navbar= document.getElementsByTagName('nav');
+      flkty.on( 'fullscreenChange', function( isFullscreen ) {
+        if(flkty.isFullscreen){
+        navbar[0].style.display = "none";
+        navbar[1].style.display = "none";
+        navbar[2].style.display = "none";
+      }
+      else{
+        navbar[0].style.display = "flex";
+        navbar[1].style.display = "flex";
+        navbar[2].style.display = "flex";
+      }
+      });
+    });
+    </script>
 
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js">></script>
+    <script>
+      function onSubmit(token) {
+        document.getElementById("contact").submit();
+      }
+    </script>
+      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+      <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+      <script src="https://www.google.com/recaptcha/api.js"></script>
+
+
         <script type="text/javascript">
-        var $carousel = $('.carousel').flickity(
-          fullscreen: true,
-        );
 
+        var $carousel = $('.carousel').flickity({fullscreen:true});
         var $carouselNav = $('.carousel-nav');
         var $carouselNavCells = $carouselNav.find('.carousel-cell');
 
@@ -70,22 +94,16 @@
           $carousel.flickity( 'select', index );
         });
 
-        var flkty = $carousel.data('flickity');
+
+        var flkty = $('.carousel').data('flickity');
+
         var navTop  = $carouselNav.position().top;
         var navCellHeight = $carouselNavCells.height();
         var navHeight = $carouselNav.height();
-        var navbar = document.querySelector('navbar-brand');
-        var navbarMenu = document.getElementById('cloned-navbar-menu');
-        var navbarClone = document.querySelector('navbar-clone');
 
-        if($carousel.isFullscreen){
-          navbar.style.display = "none";
-          navbarClone.style.display = "none";
-          navbarMenu.style.display = "none";
-        }
-        $carousel.on('fullscreenChange', function(isFullscreen) {
 
-          });
+
+
         $carousel.on( 'select.flickity', function() {
           // set selected nav cell
           $carouselNav.find('.is-nav-selected').removeClass('is-nav-selected');
@@ -100,16 +118,5 @@
         });
 
         </script>
-
-
-
-
   </body>
-  <script>
-    function onSubmit(token) {
-      document.getElementById("contact").submit();
-    }
-  </script>
-    <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
-  <script src="https://www.google.com/recaptcha/api.js"></script>
 </html>

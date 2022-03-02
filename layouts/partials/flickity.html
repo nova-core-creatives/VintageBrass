@@ -62,13 +62,19 @@ body { font-family: sans-serif; }
 }
 .carousel.is-fullscreen .carousel-cell {
   height: 100%;
-  top:100px;
 }
 .carousel.is-fullscreen .carousel-cell-image {
   max-width: 100%;
-  z-index:5;
+
 }
-.flickity-enabled.is-fullscreen .flickity-fullscreen-button-exit { display: block; top:150px }
+.carousel.is-fullscreen .flickity-viewport{
+  height:100%;
+}
+
+.carousel.is-fullscreen .flickity-page-dots{
+  display: none;
+}
+.flickity-enabled.is-fullscreen .flickity-fullscreen-button-exit { display: block;  }
 .flickity-enabled.is-fullscreen .flickity-fullscreen-button-view { display: none; }
 
 img {
