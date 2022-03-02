@@ -8,9 +8,6 @@ uglyurls: false
 permalinks:
   instruments: instruments/:slug/
 taxonomies:
-  series: series
-  tag: tags
-  name: names
   instrument: instruments
 markup:
   goldmark:
@@ -23,7 +20,7 @@ params:
     image: logos/name.svg
     link: "/"
   font:
-    name: 
+    name:
     sizes:
     - 400
     - 600
