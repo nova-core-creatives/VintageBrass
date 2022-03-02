@@ -58,16 +58,26 @@
     $(function() {
       var flkty = $('.carousel').data('flickity');
       var navbar= document.getElementsByTagName('nav');
+
+      var doc = window.document;
+      var docEl = doc.documentElement;
+
+      var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+      var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+
       flkty.on( 'fullscreenChange', function( isFullscreen ) {
-        if(flkty.isFullscreen){
+        if(flkty.isFullscreen && !doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement){
         navbar[0].style.display = "none";
         navbar[1].style.display = "none";
         navbar[2].style.display = "none";
+        requestFullScreen.call(docEl);
       }
       else{
         navbar[0].style.display = "flex";
         navbar[1].style.display = "flex";
         navbar[2].style.display = "flex";
+        document.body.requestFullscreen();
+        cancelFullScreen.call(doc);
       }
       });
     });
