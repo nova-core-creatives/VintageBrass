@@ -3,7 +3,7 @@ baseURL: https://paulayickvintagebrass.com/
 languageCode: en-us
 title: Paul Ayick
 theme: hugo-fresh
-googleAnalytics:
+googleAnalytics: 
 uglyurls: false
 permalinks:
   instruments: instruments/:slug/
@@ -15,12 +15,12 @@ markup:
       unsafe: true
 params:
   openGraph: true
-  description:
+  description: 
   navbarlogo:
     image: logos/name.svg
     link: "/"
   font:
-    name:
+    name: 
     sizes:
     - 400
     - 600
@@ -76,22 +76,38 @@ params:
     buttonText: My Music
     buttonLink: "/music"
   cards:
-    title: Are you in the market for a quality vintage brass instrument?
+    title: ABOUT THIS WEBSITE AND A LITTLE ABOUT ME
     subtitle: ''
     tabs:
-    - name: Experienced
-      quote: I'm a lifelong trumpet professional and teacher who has been in the business
-        for over 20 years. I know what makes a quality brasswind instrument, and I
-        am here to help you find one that's perfect for you.
+    - name: BACKGROUND
+      quote: I'm a lifelong trumpet professional and I teach jazz and general music
+        courses at Broward College in South Florida.I became interested in vintage
+        trumpets when some 30 years ago I began seeking out an Olds Mendez trumpet
+        like the one my father bought me in 1959 when I was 12. The search piqued
+        my curiosity and a series of events eventually found me inheriting tools,
+        and knowledge from some great local repaimen. As a player my first gigs were
+        when I was 11 or 12 years old and I have had a long, exciting career in music.I
+        have traveled extensively, played with name bands from the swing era, played
+        shows, as well as with many small jazz bands with some of the greatest jazz
+        musicians of our time.
       img: "1"
-    - name: Quality
-      quote: " I have a wide selection of vintage trumpets, cornets and horns that
-        are perfect for any musician looking to add some history to their sound. You
-        won't find instruments like these anywhere else."
+    - name: WHY VINTAGE TRUMPETS?
+      quote: ' I have a fondness for trumpets from the first half of the 20th century
+        and a look through my SOLD section will illustrate just what I have acquired
+        and sold in the past. If any of the things you see in the main areas interest
+        you contact me via e-mail I am interested in hearing from you about buying
+        and sometimes trades. If you have Uncle Harry''s old trumpet and not sure
+        what to do with it let me know I will tell you about it and make a fair offer
+        if it is something I really like.The old trumpets may not be as consistent
+        as what''s being built today but I find the best of them have a certain character
+        to the sound. My old friend and bandmate Ira Sullivan RIP said "they have
+        the voo".'
       img: "2"
-    - name: 'Professional '
+    - name: REACHING OUT TO ME
       quote: Take a look around and browse through my collection of vintage brass
-        instruments! When you find one you like, reach out and we'll make it happen.
+        instruments! When you find one you like, reach out with a message and we'll
+        make it happen. Finally visit my MUSIC page to hear some of my writing and
+        playing.
       img: "3"
   section5: true
   footer:
