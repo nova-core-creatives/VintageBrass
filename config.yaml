@@ -31,6 +31,8 @@ params:
     buttonlink: learn-more
     image: logos/sabotage.jpeg
   navbar:
+  - title: My Music
+    url: "/music"
   - title: Trumpets
     url: "/pages/trumpets"
   - title: Cornets
@@ -62,47 +64,7 @@ params:
     - title: Misc
       icon: cog
       path: misc
-  section1:
-    enable: false
-    title: Great power comes
-    subtitle: with great responsibility
-    tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: "/"
-      buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: "/"
-      buttonText: Get started
-    - title: Add-ons & plugins
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: "/"
-      buttonText: Get started
-  section2:
-    enable: false
-    title: You're here because you want the best
-    subtitle: And we know it
-    features:
-    - title: Premium Quality
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare
-        magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem.
-        Etiam finibus odio quis feugiat facilisis.
-      icon: laptop-globe
-    - title: Premier Service
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare
-        magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem.
-        Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: 'Authenticity Guaranteed '
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare
-        magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem.
-        Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
-  section3:
+  about:
     title: About Me
     subtitle: 'I''m a lifelong professional trumpet musician and teacher. I''ve played
       and taught all over the world, and have even had the privilege of performing
@@ -113,10 +75,10 @@ params:
     image: me-at-trpt-summit.jpg
     buttonText: My Music
     buttonLink: "/music"
-  section4:
+  cards:
     title: Are you in the market for a quality vintage brass instrument?
     subtitle: ''
-    clients:
+    tabs:
     - name: Experienced
       quote: I'm a lifelong trumpet professional and teacher who has been in the business
         for over 20 years. I know what makes a quality brasswind instrument, and I
@@ -151,3 +113,5 @@ params:
           link: "/links"
         - text: Contact
           link: "/contact"
+        - text: Learn More
+          link: "/learn-more"

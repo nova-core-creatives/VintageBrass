@@ -6,11 +6,11 @@
 
 
     {{ if .Site.Params.section3 }}
-    {{ partial "section3.html" . }}
+    {{ partial "about.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.section4 }}
-    {{ partial "section4.html" . }}
+    {{ if .Site.Params.cards }}
+    {{ partial "cards.html" . }}
     {{ end }}
 
     {{ if .Site.Params.section5 }}

@@ -1,7 +1,7 @@
-{{- $section4 := .Site.Params.section4 }}
-{{- $title    := index $section4 "title" }}
-{{- $subtitle := index $section4 "subtitle" }}
-{{- $clients  := index $section4 "clients" }}
+{{- $cards := .Site.Params.cards }}
+{{- $title    := index $cards "title" }}
+{{- $subtitle := index $cards "subtitle" }}
+{{- $tabs  := index $cards "tabs" }}
 <section class="section is-medium section-secondary">
   <div class="container">
 
@@ -14,7 +14,7 @@
 
     <div class="content-wrapper">
       <div class="columns is-vcentered">
-        {{- range $clients }}
+        {{- range $tabs }}
         <div class="column is-4">
           <figure class="testimonial">
             <blockquote>
