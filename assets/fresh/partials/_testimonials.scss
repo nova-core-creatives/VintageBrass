@@ -40,23 +40,7 @@ Testimonials Styles
         line-height: 1.6em;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     }
-    blockquote:before, blockquote:after {
-        font-family: 'FontAwesome';
-        content: "\f10d";
-        position: absolute;
-        font-size: 20px;
-        opacity: 0.3;
-        font-style: normal;
-    }
-    blockquote:before {
-        top: 35px;
-        left: 20px;
-    }
-    blockquote:after {
-        content: "\f10e";
-        right: 20px;
-        bottom: 35px;
-    }
+  
     .author {
         margin: 0;
         height: 80px;
@@ -87,4 +71,3 @@ Testimonials Styles
         }
     }
 }
-
