@@ -1,8 +1,8 @@
 +++
+subtitle = "The Premium Mouthpieces we have in Stock"
 title = "Mouthpieces"
 
-subtitle = "The Premium Mouthpieces we have in Stock"
-
-
-
 +++
+* list item
+* list item
+* list item
