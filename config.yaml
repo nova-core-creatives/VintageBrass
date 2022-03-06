@@ -79,16 +79,17 @@ params:
     title: Are you in the market for a quality vintage brass instrument?
     subtitle: ''
     tabs:
-    - name: Experienced
+    - name: History
       quote: I'm a lifelong trumpet professional and I teach jazz and general music
         courses at Broward College in South Florida.I became interested in vintage
         trumpets when some 30 years ago I began seeking out an Olds Mendez trumpet
-        like the one my father bought me in 1959 when I was 12. My search piqued my
-        curiosity and a series of events eventually found me inherting tools, and
-        knowledge from some great local repaimen. As a player my first gigs where
-        when I was 11 or 12 years old and I have had a long, exciting career in music.
-        i have traveled with name bands from the swing era, played shows and in many
-        small bands with some ogf the great jazz musicians of our time.
+        like the one my father bought me in 1959 when I was 12. The search piqued
+        my curiosity and a series of events eventually found me inheriting tools,
+        and knowledge from some great local repaimen. As a player my first gigs were
+        when I was 11 or 12 years old and I have had a long, exciting career in music.I
+        have traveled extensively, played with name bands from the swing era, played
+        shows, as well as with many small jazz bands with some of the greatest jazz
+        musicians of our time.
       img: "1"
     - name: Quality
       quote: ' I have a fondness for trumpets from the first half of the 20th century
