@@ -3,7 +3,7 @@ baseURL: https://paulayickvintagebrass.com/
 languageCode: en-us
 title: Paul Ayick
 theme: hugo-fresh
-googleAnalytics:
+googleAnalytics: 
 uglyurls: false
 permalinks:
   instruments: instruments/:slug/
@@ -15,12 +15,12 @@ markup:
       unsafe: true
 params:
   openGraph: true
-  description:
+  description: 
   navbarlogo:
     image: logos/name.svg
     link: "/"
   font:
-    name:
+    name: 
     sizes:
     - 400
     - 600
@@ -80,9 +80,15 @@ params:
     subtitle: ''
     tabs:
     - name: Experienced
-      quote: I'm a lifelong trumpet professional and teacher who has been in the business
-        for over 20 years. I know what makes a quality brasswind instrument, and I
-        am here to help you find one that's perfect for you.
+      quote: I'm a lifelong trumpet professional and I teach jazz and general music
+        courses at Broward College in South Florida.I became interested in vintage
+        trumpets when some 30 years ago I began seeking out an Olds Mendez trumpet
+        like the one my father bought me in 1959 when I was 12. My search piqued my
+        curiosity and a series of events eventually found me inherting tools, and
+        knowledge from some great local repaimen. As a player my first gigs where
+        when I was 11 or 12 years old and I have had a long, exciting career in music.
+        i have traveled with name bands from the swing era, played shows and in many
+        small bands with some ogf the great jazz musicians of our time.
       img: "1"
     - name: Quality
       quote: " I have a wide selection of vintage trumpets, cornets and horns that
