@@ -16,5 +16,3 @@ fields:
   label: instruments
   hidden: false
   default: cornets
-pages:
-- content/pages/cornets/conn-director-coprion.md
