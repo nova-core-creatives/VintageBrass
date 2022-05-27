@@ -16,3 +16,5 @@ fields:
   label: instruments
   hidden: false
   default: cornets
+pages:
+- content/pages/sold/misc/eb-rotary-valve-cornet.md
