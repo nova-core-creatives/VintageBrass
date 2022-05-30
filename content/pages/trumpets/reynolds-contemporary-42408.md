@@ -5,6 +5,6 @@ instruments = "trumpets"
 series = ""
 subtitle = ""
 tags = []
-title = "Reynolds Contemporary #42408"
+title = "Reynolds Contempora #42408"
 
 +++
