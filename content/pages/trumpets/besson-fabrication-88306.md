@@ -5,6 +5,6 @@ instruments = "trumpets"
 series = ""
 subtitle = "Circa 1935"
 tags = []
-title = "Besson Fabrication #88306 .485 bore"
+title = "Besson Fabrication #88306 .445 bore"
 
 +++
