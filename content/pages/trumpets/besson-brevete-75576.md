@@ -5,6 +5,6 @@ instruments = "trumpets"
 series = ""
 subtitle = "Circa 1908 Very unusual to find such an old French Besson this one was distributed by Jordan Marsh the department store chain. large .470 bore this trumpet is unique and a great player as well.the department chain."
 tags = []
-title = "Besson Brevete #75576 .470 bore"
+title = "Besson Brevete #75576 .470 bore 1908"
 
 +++
