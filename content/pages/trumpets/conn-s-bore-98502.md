@@ -5,6 +5,6 @@ instruments = "trumpets"
 series = ""
 subtitle = "Circa 1906"
 tags = []
-title = "Conn S-Bore #98502 "
+title = "Conn  #98502  .424 bore"
 
 +++
