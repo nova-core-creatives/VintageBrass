@@ -1,9 +1,9 @@
 +++
 description = []
-images = ["/uploads/dscn2458.JPG", "/uploads/dscn2457.JPG", "/uploads/dscn2456.JPG", "/uploads/dscn2455.JPG", "/uploads/dscn2454.JPG", "/uploads/dscn2453.JPG", "/uploads/dscn2452.JPG", "/uploads/dscn2451.JPG", "/uploads/dscn2448.JPG", "/uploads/dscn2447.JPG", "/uploads/dscn2446.jpg", "/uploads/dscn2445.JPG", "/uploads/dscn2444.JPG", "/uploads/dscn2443.JPG", "/uploads/dscn2442.JPG", "/uploads/dscn2441.JPG", "/uploads/dscn2440.JPG"]
+images = ["/uploads/img_7192.JPG", "/uploads/img_7191.JPG", "/uploads/img_7190.JPG", "/uploads/img_7189.JPG", "/uploads/img_7188.JPG", "/uploads/img_7186.JPG", "/uploads/img_7185.JPG", "/uploads/img_7184.JPG", "/uploads/img_7183.JPG", "/uploads/img_7182.JPG", "/uploads/img_7181.JPG", "/uploads/img_7180.JPG", "/uploads/img_7179.JPG", "/uploads/img_7178.JPG", "/uploads/img_7177.JPG", "/uploads/img_7175.JPG", "/uploads/img_7174.JPG", "/uploads/img_7173.JPG", "/uploads/img_7172.JPG"]
 instruments = "trumpets"
 series = ""
-subtitle = "Circa 1906"
+subtitle = "Circa 1906 The oldest Conn trumpet in my collection this thing plays remarkably well for such a small bore. The leadpipe was replaced before I got it. "
 tags = []
 title = "Conn  #98502  .424 bore"
 
