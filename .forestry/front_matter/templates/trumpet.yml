@@ -17,6 +17,7 @@ fields:
   hidden: false
   default: trumpets
 pages:
+- content/pages/mouthpieces/Trumpet/test.md
 - content/pages/sold/horns/bach-8361-ny.md
 - content/pages/sold/horns/conn-40b-vocabell-285046.md
 - content/pages/sold/horns/getzen-c-lb-sk4614.md
