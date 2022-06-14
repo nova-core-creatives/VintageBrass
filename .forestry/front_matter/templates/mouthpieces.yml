@@ -16,3 +16,5 @@ fields:
   label: instruments
   hidden: false
   default: mouthpieces
+pages:
+- content/pages/mouthpieces/Trumpet/test.md
