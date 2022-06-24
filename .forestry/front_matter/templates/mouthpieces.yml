@@ -16,6 +16,3 @@ fields:
   label: instruments
   hidden: false
   default: mouthpieces
-pages:
-- content/pages/mouthpieces/CORNET & FLUGELHORN/test-2.md
-- content/pages/mouthpieces/Trumpet/test.md
