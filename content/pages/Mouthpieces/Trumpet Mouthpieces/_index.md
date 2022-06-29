@@ -1,5 +1,4 @@
 +++
-subtitle = "The Premium Mouthpieces we have in Stock"
-title = "Mouthpieces"
-
+subtitle = "Some interesting pieces in this list"
+title = "Trumpet Mouthpieces"
 +++
