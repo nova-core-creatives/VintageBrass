@@ -1,5 +1,5 @@
 +++
-subtitle = "The Premium Mouthpieces we have in Stock"
-title = "Mouthpieces"
+subtitle = "other types of mouthpieces, mutes, shanks, misc. accessories"
+title = "Miscellaneous"
 
 +++
