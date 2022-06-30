@@ -17,6 +17,7 @@ fields:
   hidden: false
   default: mouthpieces
 pages:
+- content/pages/Mouthpieces/Cornet & Flugelhorn/bach-mt-v-7.md
 - content/pages/Mouthpieces/Trumpet Mouthpieces/armstrong-appx-10.5-c.md
 - content/pages/Mouthpieces/Trumpet Mouthpieces/austin-custom-brass-mv-3c.md
 - content/pages/Mouthpieces/Trumpet Mouthpieces/bach-2-1-2-c-mt-vernon.md
