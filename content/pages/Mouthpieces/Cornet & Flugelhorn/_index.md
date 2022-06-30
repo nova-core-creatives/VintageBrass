@@ -1,4 +1,4 @@
 +++
 subtitle = "E-mail me if interested"
-title = "Cornet & Flugelhorns" 
+title = "Cornet & Flugelhorn" 
 +++
