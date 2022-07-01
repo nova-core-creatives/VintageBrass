@@ -1,7 +1,7 @@
 +++
 title = "Miscellaneous"
 
-subtitle = "Miscellaneous instruments we have in Stock"
+subtitle = "Miscellaneous instruments for sale"
 
 
 
