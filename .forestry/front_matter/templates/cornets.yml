@@ -17,4 +17,5 @@ fields:
   hidden: false
   default: cornets
 pages:
+- content/pages/cornets/conn-28a-909xxx-1961.md
 - content/pages/sold/misc/eb-rotary-valve-cornet.md
