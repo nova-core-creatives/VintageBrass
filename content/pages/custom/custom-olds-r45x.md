@@ -1,7 +1,7 @@
 +++
-images = ["/uploads/img_9597.jpg", "/uploads/img_9596.jpg", "/uploads/img_9595.jpg", "/uploads/img_9594.jpg", "/uploads/img_9593.jpg", "/uploads/img_9592.jpg", "/uploads/img_9591.jpg", "/uploads/img_9590.jpg", "/uploads/img_9589.jpg", "/uploads/img_9588.jpg", "/uploads/img_9587.jpg", "/uploads/img_9586.jpg"]
+images = ["/uploads/img_7789.jpg", "/uploads/img_7780.jpg", "/uploads/img_7790.jpg", "/uploads/img_7788.jpg", "/uploads/img_7787.jpg", "/uploads/img_7786.jpg", "/uploads/img_7785.jpg", "/uploads/img_7784.jpg", "/uploads/img_7783.jpg"]
 instruments = "custom"
-sub-title = ""
+sub-title = "Custom Olds  R45X rose brass Pilczuk leadpipe Pilczuk R54X Leadpipe 4 7/8” Bell"
 title = "Custom Olds R45X"
 
 +++
