@@ -5,7 +5,7 @@ instruments = "cornets"
 series = ""
 subtitle = "circa 1905"
 tags = []
-title = "Con-Querer 83352"
+title = "Conn-Querer 83352"
 
 +++
 # 
