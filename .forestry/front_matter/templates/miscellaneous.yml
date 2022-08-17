@@ -17,6 +17,7 @@ fields:
   hidden: false
   default: misc
 pages:
+- content/pages/misc/custom-olds-flugelhorn-636787.md
 - content/pages/misc/olds-special-tri-color-trombone.md
 - content/pages/sold/misc/olds-double-horn.md
 - content/pages/sold/misc/ruhlmann-7-keyed-bugle.md
