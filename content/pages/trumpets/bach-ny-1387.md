@@ -5,6 +5,6 @@ instruments = "trumpets"
 series = ""
 subtitle = "1929 Faciebat Anno truly one of the great trumpets. This one had significant leadpipe injuries when I got it but I opted to save it rather than replace it hence there are 2 very small patches. This horn really plays nice and is in great mechanical condition. Open to offers."
 tags = []
-title = "Bach NY #1387"
+title = "Bach NY #1397"
 
 +++
