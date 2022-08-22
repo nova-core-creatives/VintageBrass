@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+<TITLE>Fileman</TITLE>
+<SCRIPT language="javascript">
+<!--
+/*Comments: This is a very touchy Javascript made specifically for paulayickvintagebrass.com
+  It works in conjunction with fileman.cgi which is located in the CGI directory.
+  It collects part of the current URL for the cgi script to process.
+  The split functions use the current URL for gathering the part of the URL needed.
+  You cannot rename this file unless you first change the name also in the second split function below.
+  Look at the sample URL below.  This much is taken from it:  "Trumpets/Conn%2048B%20Vocabell%20%23349338/"
+  The rest is discarded.  The portion taken is joined together with the absolute path of the site.  This
+  happens unseen within the cgi script.
+*/
+
+//http://www.paulayickvintagebrass.com/Trumpets/Conn%2048B%20Vocabell%20%23349338/fileman.htm
+
+var url = location.href;
+var theSplit = url.split(".com/");
+var theQuery = theSplit[1].split("fileman");
+
+if (navigator.appName == "Netscape") {
+	window.location = "http://www.paulayickvintagebrass.com/cgi/fileman/fileman.cgi?path=" + theQuery[0];
+}
+else {
+	document.write ("<META HTTP-EQUIV='Refresh' CONTENT='0;URL=http://www.paulayickvintagebrass.com/cgi/fileman/fileman.cgi?path=" + theQuery[0] + "'>");
+}
+// -->
+</SCRIPT>
+
+
+</HEAD>
+<BODY>
+<noscript>
+ERROR! You must have Javascript turned on in order for the thumbnails to load.
+</noscript>
+</BODY>
+</HTML>
